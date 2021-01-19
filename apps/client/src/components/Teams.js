@@ -2,12 +2,10 @@ import React, { useEffect, useState } from 'react'
 import { apiClient } from '../api/apiClient'
 import Team from './Team'
 import { SNACKBAR_INFO } from '../consts'
-import SnackbarAlert from './SnackbarAlert'
 
 
-const Teams = () => {
+const Teams = ({ setSnackbar }) => {
   const [teams, setTeams] = useState([])
-  const [snackbar, setSnackbar] = useState({ open: false, severity: '', message: '' })
 
   useEffect(() => {
     const fetchTeams = async () => {
@@ -52,12 +50,6 @@ const Teams = () => {
         saveTeamToFavorites={saveTeamToFavorites}
         removeTeamFromFavorites={removeTeamFromFavorites}
       />)}
-      <SnackbarAlert
-        open={snackbar.open}
-        severity={snackbar.severity}
-        message={snackbar.message}
-        hideSnackbar={() => setSnackbar({ open: false, severity: '', message: '' })}
-      />
     </div>
   )
 }

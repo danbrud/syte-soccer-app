@@ -37,11 +37,13 @@ const Team = ({ team, saveTeamToFavorites, removeTeamFromFavorites }) => {
         image={logo}
         title={name}
       />
-      <CardContent>
-        <Typography variant='body2' color='textSecondary' component='p'>
-          Founded in: {founded}
-        </Typography>
-      </CardContent>
+      {
+        founded && <CardContent>
+          <Typography variant='body2' color='textSecondary' component='p'>
+            Founded in: {founded}
+          </Typography>
+        </CardContent>
+      }
       <CardActions>
         {
           isSaved
