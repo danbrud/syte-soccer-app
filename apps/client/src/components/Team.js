@@ -23,7 +23,19 @@ const useStyles = makeStyles((theme) => ({
   },
   media: {
     height: 0,
-    paddingTop: '56.25%' // 16:9
+    paddingTop: '56.25%',
+    backgroundSize: 'auto'
+  },
+  secondaryText: {
+    justifySelf: 'end',
+    padding: '12px'
+  },
+  cardBottom: {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(2, 1fr)'
+  },
+  icon: {
+    justifySelf: 'start'
   }
 }))
 
@@ -44,23 +56,19 @@ const Team = ({ team, saveTeamToFavorites, removeTeamFromFavorites }) => {
         image={logo}
         title={name}
       />
-      {
-        founded && <CardContent>
-          <Typography variant='body2' color='textSecondary' component='p'>
-            Founded in: {founded}
-          </Typography>
-        </CardContent>
-      }
-      <CardActions>
+      <CardActions className={classes.cardBottom}>
         {
           isSaved
-            ? <IconButton onClick={() => removeTeamFromFavorites(teamId)}>
+            ? <IconButton className={classes.icon} onClick={() => removeTeamFromFavorites(teamId)}>
               <FavoriteIcon />
             </IconButton>
-            : <IconButton onClick={() => saveTeamToFavorites(teamId)}>
+            : <IconButton className={classes.icon} onClick={() => saveTeamToFavorites(teamId)}>
               <FavoriteBorderIcon />
             </IconButton>
         }
+        <Typography variant='body2' color='textSecondary' component='p' className={classes.secondaryText}>
+          Founded in: {founded}
+        </Typography>
       </CardActions>
     </Card>
   )
