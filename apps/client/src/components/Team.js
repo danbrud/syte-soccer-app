@@ -9,11 +9,17 @@ import IconButton from '@material-ui/core/IconButton'
 import Typography from '@material-ui/core/Typography'
 import FavoriteIcon from '@material-ui/icons/Favorite'
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder'
+import useMediaQuery from '@material-ui/core/useMediaQuery'
+import { MEDIA_QUERIES } from '../consts'
 
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    maxWidth: 345
+  rootDesktop: {
+    maxWidth: 400,
+    margin: '12px'
+  },
+  rootMobile: {
+    margin: '12px auto'
   },
   media: {
     height: 0,
@@ -24,11 +30,12 @@ const useStyles = makeStyles((theme) => ({
 
 const Team = ({ team, saveTeamToFavorites, removeTeamFromFavorites }) => {
   const classes = useStyles()
+  const isMobile = useMediaQuery(MEDIA_QUERIES.mobile)
 
   const { name, logo, teamId, founded, isSaved } = team
 
   return (
-    <Card className={classes.root}>
+    <Card className={isMobile ? classes.rootMobile : classes.rootDesktop}>
       <CardHeader
         title={name}
       />

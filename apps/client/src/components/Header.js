@@ -1,10 +1,15 @@
+import { Typography } from '@material-ui/core'
 import React from 'react'
+import '../styles/Header.css'
+
 
 const Header = () => {
 
   return (
     <header>
-      Soccer Teams
+      <Typography variant='h3' color='primary' align='center'>
+        SOCCER TEAMS
+      </Typography>
     </header>
   )
 }

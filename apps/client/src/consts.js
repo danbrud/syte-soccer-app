@@ -12,3 +12,8 @@ export const SNACKBAR_INFO = {
     message: 'Something went wrong...'
   }
 }
+
+export const MEDIA_QUERIES = {
+  desktop: '(min-width:768px)',
+  mobile: '(max-width:600px)'
+}

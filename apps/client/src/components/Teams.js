@@ -1,10 +1,37 @@
 import React, { useEffect, useState } from 'react'
 import { apiClient } from '../api/apiClient'
 import Team from './Team'
-import { SNACKBAR_INFO } from '../consts'
+import { MEDIA_QUERIES, SNACKBAR_INFO } from '../consts'
+import useMediaQuery from '@material-ui/core/useMediaQuery'
+import { makeStyles } from '@material-ui/core/styles'
+
+
+const useStyles = makeStyles((theme) => ({
+  rootDesktop: {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(3, 1fr)',
+    justifySelf: 'center'
+  },
+  rootMobile: {
+    margin: '16px'
+  },
+  rootLargeMobile: {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(2, 1fr)',
+    justifySelf: 'center'
+  },
+  media: {
+    height: 0,
+    paddingTop: '56.25%'
+  }
+}))
 
 
 const Teams = ({ openSnackbar }) => {
+  const classes = useStyles()
+  const isDesktop = useMediaQuery(MEDIA_QUERIES.desktop)
+  const isMobile = useMediaQuery(MEDIA_QUERIES.mobile)
+
   const [teams, setTeams] = useState([])
 
   useEffect(() => {
@@ -32,7 +59,7 @@ const Teams = ({ openSnackbar }) => {
   const removeTeamFromFavorites = async (teamId) => {
     try {
       await apiClient.deleteTeam(teamId)
-      
+
       const updatedTeams = teams.map(team => team.teamId === teamId ? { ...team, isSaved: false } : team)
       setTeams(updatedTeams)
 
@@ -43,7 +70,8 @@ const Teams = ({ openSnackbar }) => {
   }
 
   return (
-    <div>
+    <div className={isDesktop ? classes.rootDesktop : isMobile ? classes.rootMobile : classes.rootLargeMobile}>
+    {/* // <div className={isDesktop ? classes.rootDesktop : classes.rootMobile}> */}
       {teams.map(team => <Team
         key={team.teamId}
         team={team}

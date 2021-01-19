@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import './styles/App.css'
 import Teams from './components/Teams'
 import Header from './components/Header'
 import SnackbarAlert from './components/SnackbarAlert'
