@@ -6,9 +6,7 @@ axios.defaults.headers.common['x-rapidapi-host'] = SOCCER_API_HOST
 axios.defaults.headers.common['x-rapidapi-key'] = SOCCER_API_KEY
 
 const fetchTeams = () => {
-  // return axios.get('/teams?country=spain')
-  const data = require('../dummyData.json')
-  return data
+  return axios.get('/teams?country=spain')
 }
 
 module.exports = { fetchTeams }

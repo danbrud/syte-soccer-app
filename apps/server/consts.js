@@ -2,6 +2,8 @@ const ENVIRONMENT = {
   development: 'development'
 }
 
+const RESULTS_PER_PAGE = 25
+
 const {
   PORT,
   CLIENT_BUILD_PATH,
@@ -21,5 +23,6 @@ module.exports = {
   SOCCER_API_KEY,
   SOCCER_API_HOST,
   SOCCER_API_URI,
-  ENVIRONMENT
+  ENVIRONMENT,
+  RESULTS_PER_PAGE
 }
