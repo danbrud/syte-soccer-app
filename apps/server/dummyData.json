@@ -1,0 +1,3245 @@
+{
+  "success": true,
+  "teams": [
+      {
+          "teamId": 9,
+          "name": "Spain",
+          "logo": "https://media.api-sports.io/football/teams/9.png",
+          "founded": 1913
+      },
+      {
+          "teamId": 529,
+          "name": "Barcelona",
+          "logo": "https://media.api-sports.io/football/teams/529.png",
+          "founded": 1899
+      },
+      {
+          "teamId": 530,
+          "name": "Atletico Madrid",
+          "logo": "https://media.api-sports.io/football/teams/530.png",
+          "founded": 1903
+      },
+      {
+          "teamId": 531,
+          "name": "Athletic Club",
+          "logo": "https://media.api-sports.io/football/teams/531.png",
+          "founded": 1898
+      },
+      {
+          "teamId": 532,
+          "name": "Valencia",
+          "logo": "https://media.api-sports.io/football/teams/532.png",
+          "founded": 1919
+      },
+      {
+          "teamId": 533,
+          "name": "Villarreal",
+          "logo": "https://media.api-sports.io/football/teams/533.png",
+          "founded": 1923
+      },
+      {
+          "teamId": 534,
+          "name": "Las Palmas",
+          "logo": "https://media.api-sports.io/football/teams/534.png",
+          "founded": 1949
+      },
+      {
+          "teamId": 535,
+          "name": "Malaga",
+          "logo": "https://media.api-sports.io/football/teams/535.png",
+          "founded": 1948
+      },
+      {
+          "teamId": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png",
+          "founded": 1890
+      },
+      {
+          "teamId": 537,
+          "name": "Leganes",
+          "logo": "https://media.api-sports.io/football/teams/537.png",
+          "founded": 1928
+      },
+      {
+          "teamId": 538,
+          "name": "Celta Vigo",
+          "logo": "https://media.api-sports.io/football/teams/538.png",
+          "founded": 1923
+      },
+      {
+          "teamId": 539,
+          "name": "Levante",
+          "logo": "https://media.api-sports.io/football/teams/539.png",
+          "founded": 1909
+      },
+      {
+          "teamId": 540,
+          "name": "Espanyol",
+          "logo": "https://media.api-sports.io/football/teams/540.png",
+          "founded": 1900
+      },
+      {
+          "teamId": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png",
+          "founded": 1902
+      },
+      {
+          "teamId": 542,
+          "name": "Alaves",
+          "logo": "https://media.api-sports.io/football/teams/542.png",
+          "founded": 1921
+      },
+      {
+          "teamId": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png",
+          "founded": 1907
+      },
+      {
+          "teamId": 544,
+          "name": "Deportivo La Coruna",
+          "logo": "https://media.api-sports.io/football/teams/544.png",
+          "founded": 1906
+      },
+      {
+          "teamId": 545,
+          "name": "Eibar",
+          "logo": "https://media.api-sports.io/football/teams/545.png",
+          "founded": 1940
+      },
+      {
+          "teamId": 546,
+          "name": "Getafe",
+          "logo": "https://media.api-sports.io/football/teams/546.png",
+          "founded": 1983
+      },
+      {
+          "teamId": 547,
+          "name": "Girona",
+          "logo": "https://media.api-sports.io/football/teams/547.png",
+          "founded": 1930
+      },
+      {
+          "teamId": 548,
+          "name": "Real Sociedad",
+          "logo": "https://media.api-sports.io/football/teams/548.png",
+          "founded": 1909
+      },
+      {
+          "teamId": 593,
+          "name": "Europa Fc",
+          "logo": "https://media.api-sports.io/football/teams/593.png",
+          "founded": 1907
+      },
+      {
+          "teamId": 711,
+          "name": "Alcorcon",
+          "logo": "https://media.api-sports.io/football/teams/711.png",
+          "founded": 1971
+      },
+      {
+          "teamId": 712,
+          "name": "Barcelona B",
+          "logo": "https://media.api-sports.io/football/teams/712.png",
+          "founded": 1899
+      },
+      {
+          "teamId": 713,
+          "name": "Cordoba",
+          "logo": "https://media.api-sports.io/football/teams/713.png",
+          "founded": 1954
+      },
+      {
+          "teamId": 714,
+          "name": "Gimnastic",
+          "logo": "https://media.api-sports.io/football/teams/714.png",
+          "founded": 1914
+      },
+      {
+          "teamId": 715,
+          "name": "Granada CF",
+          "logo": "https://media.api-sports.io/football/teams/715.png",
+          "founded": 1931
+      },
+      {
+          "teamId": 716,
+          "name": "Lugo",
+          "logo": "https://media.api-sports.io/football/teams/716.png",
+          "founded": 1953
+      },
+      {
+          "teamId": 717,
+          "name": "Numancia",
+          "logo": "https://media.api-sports.io/football/teams/717.png",
+          "founded": 1945
+      },
+      {
+          "teamId": 718,
+          "name": "Oviedo",
+          "logo": "https://media.api-sports.io/football/teams/718.png",
+          "founded": 1926
+      },
+      {
+          "teamId": 719,
+          "name": "Tenerife",
+          "logo": "https://media.api-sports.io/football/teams/719.png",
+          "founded": 1922
+      },
+      {
+          "teamId": 720,
+          "name": "Valladolid",
+          "logo": "https://media.api-sports.io/football/teams/720.png",
+          "founded": 1928
+      },
+      {
+          "teamId": 721,
+          "name": "Lorca FC",
+          "logo": "https://media.api-sports.io/football/teams/721.png",
+          "founded": 2003
+      },
+      {
+          "teamId": 722,
+          "name": "Albacete",
+          "logo": "https://media.api-sports.io/football/teams/722.png",
+          "founded": 1940
+      },
+      {
+          "teamId": 723,
+          "name": "Almeria",
+          "logo": "https://media.api-sports.io/football/teams/723.png",
+          "founded": 1989
+      },
+      {
+          "teamId": 724,
+          "name": "Cadiz",
+          "logo": "https://media.api-sports.io/football/teams/724.png",
+          "founded": 1910
+      },
+      {
+          "teamId": 725,
+          "name": "Cultural Leonesa",
+          "logo": "https://media.api-sports.io/football/teams/725.png",
+          "founded": 1923
+      },
+      {
+          "teamId": 726,
+          "name": "Huesca",
+          "logo": "https://media.api-sports.io/football/teams/726.png",
+          "founded": 1922
+      },
+      {
+          "teamId": 727,
+          "name": "Osasuna",
+          "logo": "https://media.api-sports.io/football/teams/727.png",
+          "founded": 1920
+      },
+      {
+          "teamId": 728,
+          "name": "Rayo Vallecano",
+          "logo": "https://media.api-sports.io/football/teams/728.png",
+          "founded": 1924
+      },
+      {
+          "teamId": 729,
+          "name": "Reus",
+          "logo": "https://media.api-sports.io/football/teams/729.png",
+          "founded": 1909
+      },
+      {
+          "teamId": 730,
+          "name": "Sevilla Atletico",
+          "logo": "https://media.api-sports.io/football/teams/730.png",
+          "founded": null
+      },
+      {
+          "teamId": 731,
+          "name": "Sporting Gijon",
+          "logo": "https://media.api-sports.io/football/teams/731.png",
+          "founded": 1905
+      },
+      {
+          "teamId": 732,
+          "name": "Zaragoza",
+          "logo": "https://media.api-sports.io/football/teams/732.png",
+          "founded": 1932
+      },
+      {
+          "teamId": 797,
+          "name": "Elche",
+          "logo": "https://media.api-sports.io/football/teams/797.png",
+          "founded": 1923
+      },
+      {
+          "teamId": 798,
+          "name": "Mallorca",
+          "logo": "https://media.api-sports.io/football/teams/798.png",
+          "founded": 1916
+      },
+      {
+          "teamId": 799,
+          "name": "Mirandes",
+          "logo": "https://media.api-sports.io/football/teams/799.png",
+          "founded": 1927
+      },
+      {
+          "teamId": 800,
+          "name": "Ucam Murcia",
+          "logo": "https://media.api-sports.io/football/teams/800.png",
+          "founded": 2009
+      },
+      {
+          "teamId": 860,
+          "name": "Extremadura",
+          "logo": "https://media.api-sports.io/football/teams/860.png",
+          "founded": 2007
+      },
+      {
+          "teamId": 861,
+          "name": "Rayo Majadahonda",
+          "logo": "https://media.api-sports.io/football/teams/861.png",
+          "founded": 1976
+      },
+      {
+          "teamId": 1736,
+          "name": "Spain W",
+          "logo": "https://media.api-sports.io/football/teams/1736.png",
+          "founded": 1913
+      },
+      {
+          "teamId": 1904,
+          "name": "Ud Tacuense W",
+          "logo": "https://media.api-sports.io/football/teams/1904.png",
+          "founded": null
+      },
+      {
+          "teamId": 1905,
+          "name": "Athletic Club W",
+          "logo": "https://media.api-sports.io/football/teams/1905.png",
+          "founded": null
+      },
+      {
+          "teamId": 1906,
+          "name": "Oiartzun Ke W",
+          "logo": "https://media.api-sports.io/football/teams/1906.png",
+          "founded": null
+      },
+      {
+          "teamId": 1907,
+          "name": "Real Betis W",
+          "logo": "https://media.api-sports.io/football/teams/1907.png",
+          "founded": null
+      },
+      {
+          "teamId": 1908,
+          "name": "Santa Teresa W",
+          "logo": "https://media.api-sports.io/football/teams/1908.png",
+          "founded": null
+      },
+      {
+          "teamId": 1909,
+          "name": "Valencia W",
+          "logo": "https://media.api-sports.io/football/teams/1909.png",
+          "founded": null
+      },
+      {
+          "teamId": 1910,
+          "name": "Atletico Madrid W",
+          "logo": "https://media.api-sports.io/football/teams/1910.png",
+          "founded": null
+      },
+      {
+          "teamId": 1911,
+          "name": "Levante W",
+          "logo": "https://media.api-sports.io/football/teams/1911.png",
+          "founded": null
+      },
+      {
+          "teamId": 1912,
+          "name": "Real Sociedad W",
+          "logo": "https://media.api-sports.io/football/teams/1912.png",
+          "founded": null
+      },
+      {
+          "teamId": 1913,
+          "name": "Granad. Tenerife W",
+          "logo": "https://media.api-sports.io/football/teams/1913.png",
+          "founded": null
+      },
+      {
+          "teamId": 1914,
+          "name": "Rayo Vallecano W",
+          "logo": "https://media.api-sports.io/football/teams/1914.png",
+          "founded": null
+      },
+      {
+          "teamId": 1915,
+          "name": "Fundacion Albacete W",
+          "logo": "https://media.api-sports.io/football/teams/1915.png",
+          "founded": null
+      },
+      {
+          "teamId": 1916,
+          "name": "Sporting Huelva W",
+          "logo": "https://media.api-sports.io/football/teams/1916.png",
+          "founded": null
+      },
+      {
+          "teamId": 1917,
+          "name": "Zaragoza W",
+          "logo": "https://media.api-sports.io/football/teams/1917.png",
+          "founded": null
+      },
+      {
+          "teamId": 1918,
+          "name": "Barcelona W",
+          "logo": "https://media.api-sports.io/football/teams/1918.png",
+          "founded": null
+      },
+      {
+          "teamId": 1919,
+          "name": "Espanyol W",
+          "logo": "https://media.api-sports.io/football/teams/1919.png",
+          "founded": null
+      },
+      {
+          "teamId": 1920,
+          "name": "Sevilla W",
+          "logo": "https://media.api-sports.io/football/teams/1920.png",
+          "founded": null
+      },
+      {
+          "teamId": 1921,
+          "name": "Madrid CFF W",
+          "logo": "https://media.api-sports.io/football/teams/1921.png",
+          "founded": null
+      },
+      {
+          "teamId": 1922,
+          "name": "Malaga W",
+          "logo": "https://media.api-sports.io/football/teams/1922.png",
+          "founded": null
+      },
+      {
+          "teamId": 1923,
+          "name": "Edf Logrono W",
+          "logo": "https://media.api-sports.io/football/teams/1923.png",
+          "founded": null
+      },
+      {
+          "teamId": 4665,
+          "name": "Racing Santander",
+          "logo": "https://media.api-sports.io/football/teams/4665.png",
+          "founded": 1913
+      },
+      {
+          "teamId": 4666,
+          "name": "Hércules",
+          "logo": "https://media.api-sports.io/football/teams/4666.png",
+          "founded": 1922
+      },
+      {
+          "teamId": 4890,
+          "name": "Santa Eulália",
+          "logo": "https://media.api-sports.io/football/teams/4890.png",
+          "founded": null
+      },
+      {
+          "teamId": 4906,
+          "name": "Fuenlabrada",
+          "logo": "https://media.api-sports.io/football/teams/4906.png",
+          "founded": null
+      },
+      {
+          "teamId": 4907,
+          "name": "Ponferradina",
+          "logo": "https://media.api-sports.io/football/teams/4907.png",
+          "founded": 1922
+      },
+      {
+          "teamId": 5250,
+          "name": "Badalona",
+          "logo": "https://media.api-sports.io/football/teams/5250.png",
+          "founded": 1903
+      },
+      {
+          "teamId": 5251,
+          "name": "Barakaldo",
+          "logo": "https://media.api-sports.io/football/teams/5251.png",
+          "founded": 1917
+      },
+      {
+          "teamId": 5252,
+          "name": "CD Calahorra",
+          "logo": "https://media.api-sports.io/football/teams/5252.png",
+          "founded": 1942
+      },
+      {
+          "teamId": 5253,
+          "name": "CF Talavera",
+          "logo": "https://media.api-sports.io/football/teams/5253.png",
+          "founded": 2011
+      },
+      {
+          "teamId": 5254,
+          "name": "Castellón",
+          "logo": "https://media.api-sports.io/football/teams/5254.png",
+          "founded": 1922
+      },
+      {
+          "teamId": 5255,
+          "name": "Ceuta",
+          "logo": "https://media.api-sports.io/football/teams/5255.png",
+          "founded": 1956
+      },
+      {
+          "teamId": 5256,
+          "name": "Compostela",
+          "logo": "https://media.api-sports.io/football/teams/5256.png",
+          "founded": 1962
+      },
+      {
+          "teamId": 5257,
+          "name": "Conquense",
+          "logo": "https://media.api-sports.io/football/teams/5257.png",
+          "founded": 1946
+      },
+      {
+          "teamId": 5258,
+          "name": "Cornellà",
+          "logo": "https://media.api-sports.io/football/teams/5258.png",
+          "founded": 1951
+      },
+      {
+          "teamId": 5259,
+          "name": "Don Benito",
+          "logo": "https://media.api-sports.io/football/teams/5259.png",
+          "founded": 1928
+      },
+      {
+          "teamId": 5260,
+          "name": "Durango",
+          "logo": "https://media.api-sports.io/football/teams/5260.png",
+          "founded": 1919
+      },
+      {
+          "teamId": 5261,
+          "name": "Ebro",
+          "logo": "https://media.api-sports.io/football/teams/5261.png",
+          "founded": 1961
+      },
+      {
+          "teamId": 5262,
+          "name": "FC Cartagena",
+          "logo": "https://media.api-sports.io/football/teams/5262.png",
+          "founded": 1995
+      },
+      {
+          "teamId": 5263,
+          "name": "Gernika",
+          "logo": "https://media.api-sports.io/football/teams/5263.png",
+          "founded": 1922
+      },
+      {
+          "teamId": 5264,
+          "name": "Gimnástica Torrelavega",
+          "logo": "https://media.api-sports.io/football/teams/5264.png",
+          "founded": 1907
+      },
+      {
+          "teamId": 5265,
+          "name": "Langreo",
+          "logo": "https://media.api-sports.io/football/teams/5265.png",
+          "founded": 1961
+      },
+      {
+          "teamId": 5266,
+          "name": "Lleida Esportiu",
+          "logo": "https://media.api-sports.io/football/teams/5266.png",
+          "founded": 2011
+      },
+      {
+          "teamId": 5267,
+          "name": "Marbella",
+          "logo": "https://media.api-sports.io/football/teams/5267.png",
+          "founded": 1997
+      },
+      {
+          "teamId": 5268,
+          "name": "Melilla",
+          "logo": "https://media.api-sports.io/football/teams/5268.png",
+          "founded": 1943
+      },
+      {
+          "teamId": 5269,
+          "name": "Mensajero",
+          "logo": "https://media.api-sports.io/football/teams/5269.png",
+          "founded": 1922
+      },
+      {
+          "teamId": 5270,
+          "name": "Mutilvera",
+          "logo": "https://media.api-sports.io/football/teams/5270.png",
+          "founded": 1993
+      },
+      {
+          "teamId": 5271,
+          "name": "Navalcarnero",
+          "logo": "https://media.api-sports.io/football/teams/5271.png",
+          "founded": 1928
+      },
+      {
+          "teamId": 5272,
+          "name": "Ontinyent",
+          "logo": "https://media.api-sports.io/football/teams/5272.png",
+          "founded": 1947
+      },
+      {
+          "teamId": 5273,
+          "name": "Poblense",
+          "logo": "https://media.api-sports.io/football/teams/5273.png",
+          "founded": null
+      },
+      {
+          "teamId": 5274,
+          "name": "Real Jaén",
+          "logo": "https://media.api-sports.io/football/teams/5274.png",
+          "founded": 1922
+      },
+      {
+          "teamId": 5275,
+          "name": "Real Murcia",
+          "logo": "https://media.api-sports.io/football/teams/5275.png",
+          "founded": 1908
+      },
+      {
+          "teamId": 5276,
+          "name": "Rápido Bouzas",
+          "logo": "https://media.api-sports.io/football/teams/5276.png",
+          "founded": 1917
+      },
+      {
+          "teamId": 5277,
+          "name": "Sant Andreu",
+          "logo": "https://media.api-sports.io/football/teams/5277.png",
+          "founded": 1909
+      },
+      {
+          "teamId": 5278,
+          "name": "Teruel",
+          "logo": "https://media.api-sports.io/football/teams/5278.png",
+          "founded": 1945
+      },
+      {
+          "teamId": 5279,
+          "name": "Tudelano",
+          "logo": "https://media.api-sports.io/football/teams/5279.png",
+          "founded": 1935
+      },
+      {
+          "teamId": 5280,
+          "name": "UD Logroñés",
+          "logo": "https://media.api-sports.io/football/teams/5280.png",
+          "founded": 1967
+      },
+      {
+          "teamId": 5281,
+          "name": "Unionistas de Salamanca",
+          "logo": "https://media.api-sports.io/football/teams/5281.png",
+          "founded": 2013
+      },
+      {
+          "teamId": 5282,
+          "name": "Villanovense",
+          "logo": "https://media.api-sports.io/football/teams/5282.png",
+          "founded": 1992
+      },
+      {
+          "teamId": 5283,
+          "name": "Yeclano",
+          "logo": "https://media.api-sports.io/football/teams/5283.png",
+          "founded": 2004
+      },
+      {
+          "teamId": 6376,
+          "name": "Deportivo de La Coruña W",
+          "logo": "https://media.api-sports.io/football/teams/6376.png",
+          "founded": null
+      },
+      {
+          "teamId": 6377,
+          "name": "Tacón W",
+          "logo": "https://media.api-sports.io/football/teams/6377.png",
+          "founded": null
+      },
+      {
+          "teamId": 6688,
+          "name": "Mora",
+          "logo": "https://media.api-sports.io/football/teams/6688.png",
+          "founded": null
+      },
+      {
+          "teamId": 7522,
+          "name": "Antoniano",
+          "logo": "https://media.api-sports.io/football/teams/7522.png",
+          "founded": null
+      },
+      {
+          "teamId": 7523,
+          "name": "Atlético Porcuna",
+          "logo": "https://media.api-sports.io/football/teams/7523.png",
+          "founded": null
+      },
+      {
+          "teamId": 7524,
+          "name": "Melilla CD",
+          "logo": "https://media.api-sports.io/football/teams/7524.png",
+          "founded": null
+      },
+      {
+          "teamId": 7525,
+          "name": "Ramón y Cajal",
+          "logo": "https://media.api-sports.io/football/teams/7525.png",
+          "founded": null
+      },
+      {
+          "teamId": 7884,
+          "name": "Atlético Madrid U19",
+          "logo": "https://media.api-sports.io/football/teams/7884.png",
+          "founded": null
+      },
+      {
+          "teamId": 7885,
+          "name": "Barcelona U19",
+          "logo": "https://media.api-sports.io/football/teams/7885.png",
+          "founded": null
+      },
+      {
+          "teamId": 7897,
+          "name": "Domžale U19",
+          "logo": "https://media.api-sports.io/football/teams/7897.png",
+          "founded": null
+      },
+      {
+          "teamId": 7899,
+          "name": "Elfsborg U19",
+          "logo": "https://media.api-sports.io/football/teams/7899.png",
+          "founded": null
+      },
+      {
+          "teamId": 7915,
+          "name": "Midtjylland U19",
+          "logo": "https://media.api-sports.io/football/teams/7915.png",
+          "founded": null
+      },
+      {
+          "teamId": 7916,
+          "name": "Minsk U19",
+          "logo": "https://media.api-sports.io/football/teams/7916.png",
+          "founded": null
+      },
+      {
+          "teamId": 7926,
+          "name": "Real Madrid U19",
+          "logo": "https://media.api-sports.io/football/teams/7926.png",
+          "founded": null
+      },
+      {
+          "teamId": 7927,
+          "name": "Real Zaragoza U19",
+          "logo": "https://media.api-sports.io/football/teams/7927.png",
+          "founded": null
+      },
+      {
+          "teamId": 7928,
+          "name": "Salzburg U19",
+          "logo": "https://media.api-sports.io/football/teams/7928.png",
+          "founded": null
+      },
+      {
+          "teamId": 7939,
+          "name": "Viitorul U19",
+          "logo": "https://media.api-sports.io/football/teams/7939.png",
+          "founded": null
+      },
+      {
+          "teamId": 7952,
+          "name": "HJK U19",
+          "logo": "https://media.api-sports.io/football/teams/7952.png",
+          "founded": null
+      },
+      {
+          "teamId": 7987,
+          "name": "Legia Warszawa U19",
+          "logo": "https://media.api-sports.io/football/teams/7987.png",
+          "founded": null
+      },
+      {
+          "teamId": 7992,
+          "name": "Saburtalo U19",
+          "logo": "https://media.api-sports.io/football/teams/7992.png",
+          "founded": null
+      },
+      {
+          "teamId": 7996,
+          "name": "Spartak Moskva U19",
+          "logo": "https://media.api-sports.io/football/teams/7996.png",
+          "founded": null
+      },
+      {
+          "teamId": 8000,
+          "name": "Zimbru U19",
+          "logo": "https://media.api-sports.io/football/teams/8000.png",
+          "founded": null
+      },
+      {
+          "teamId": 8001,
+          "name": "Željezničar U19",
+          "logo": "https://media.api-sports.io/football/teams/8001.png",
+          "founded": null
+      },
+      {
+          "teamId": 8151,
+          "name": "Andratx",
+          "logo": "https://media.api-sports.io/football/teams/8151.png",
+          "founded": null
+      },
+      {
+          "teamId": 8152,
+          "name": "Barquereño",
+          "logo": "https://media.api-sports.io/football/teams/8152.png",
+          "founded": null
+      },
+      {
+          "teamId": 8153,
+          "name": "Becerril Campos",
+          "logo": "https://media.api-sports.io/football/teams/8153.png",
+          "founded": 1977
+      },
+      {
+          "teamId": 8154,
+          "name": "Comillas",
+          "logo": "https://media.api-sports.io/football/teams/8154.png",
+          "founded": null
+      },
+      {
+          "teamId": 8155,
+          "name": "El Palmar",
+          "logo": "https://media.api-sports.io/football/teams/8155.png",
+          "founded": 2006
+      },
+      {
+          "teamId": 8156,
+          "name": "El Álamo",
+          "logo": "https://media.api-sports.io/football/teams/8156.png",
+          "founded": null
+      },
+      {
+          "teamId": 8158,
+          "name": "Fraga",
+          "logo": "https://media.api-sports.io/football/teams/8158.png",
+          "founded": null
+      },
+      {
+          "teamId": 8159,
+          "name": "Gran Tarajal",
+          "logo": "https://media.api-sports.io/football/teams/8159.png",
+          "founded": null
+      },
+      {
+          "teamId": 8160,
+          "name": "Intercity",
+          "logo": "https://media.api-sports.io/football/teams/8160.png",
+          "founded": 2018
+      },
+      {
+          "teamId": 8161,
+          "name": "Lobón",
+          "logo": "https://media.api-sports.io/football/teams/8161.png",
+          "founded": null
+      },
+      {
+          "teamId": 8162,
+          "name": "Pedroñeras",
+          "logo": "https://media.api-sports.io/football/teams/8162.png",
+          "founded": 1964
+      },
+      {
+          "teamId": 8163,
+          "name": "Peña Azagresa",
+          "logo": "https://media.api-sports.io/football/teams/8163.png",
+          "founded": 1925
+      },
+      {
+          "teamId": 8164,
+          "name": "Pontellas",
+          "logo": "https://media.api-sports.io/football/teams/8164.png",
+          "founded": null
+      },
+      {
+          "teamId": 8165,
+          "name": "Tolosa",
+          "logo": "https://media.api-sports.io/football/teams/8165.png",
+          "founded": null
+      },
+      {
+          "teamId": 8166,
+          "name": "Urraca",
+          "logo": "https://media.api-sports.io/football/teams/8166.png",
+          "founded": 1949
+      },
+      {
+          "teamId": 8224,
+          "name": "Spain U21",
+          "logo": "https://media.api-sports.io/football/teams/8224.png",
+          "founded": 1913
+      },
+      {
+          "teamId": 9380,
+          "name": "Amorebieta",
+          "logo": "https://media.api-sports.io/football/teams/9380.png",
+          "founded": 1925
+      },
+      {
+          "teamId": 9381,
+          "name": "Atlético Baleares",
+          "logo": "https://media.api-sports.io/football/teams/9381.png",
+          "founded": 1942
+      },
+      {
+          "teamId": 9382,
+          "name": "Badajoz",
+          "logo": "https://media.api-sports.io/football/teams/9382.png",
+          "founded": 1905
+      },
+      {
+          "teamId": 9383,
+          "name": "Bergantiños",
+          "logo": "https://media.api-sports.io/football/teams/9383.png",
+          "founded": null
+      },
+      {
+          "teamId": 9384,
+          "name": "Cacereño",
+          "logo": "https://media.api-sports.io/football/teams/9384.png",
+          "founded": 1919
+      },
+      {
+          "teamId": 9385,
+          "name": "Coruxo",
+          "logo": "https://media.api-sports.io/football/teams/9385.png",
+          "founded": 1930
+      },
+      {
+          "teamId": 9386,
+          "name": "Escobedo",
+          "logo": "https://media.api-sports.io/football/teams/9386.png",
+          "founded": 1917
+      },
+      {
+          "teamId": 9387,
+          "name": "Gimnástica Segoviana",
+          "logo": "https://media.api-sports.io/football/teams/9387.png",
+          "founded": 1928
+      },
+      {
+          "teamId": 9388,
+          "name": "Guijuelo",
+          "logo": "https://media.api-sports.io/football/teams/9388.png",
+          "founded": 1974
+      },
+      {
+          "teamId": 9389,
+          "name": "Haro Deportivo",
+          "logo": "https://media.api-sports.io/football/teams/9389.png",
+          "founded": null
+      },
+      {
+          "teamId": 9390,
+          "name": "Ibiza",
+          "logo": "https://media.api-sports.io/football/teams/9390.png",
+          "founded": 2015
+      },
+      {
+          "teamId": 9391,
+          "name": "Illueca",
+          "logo": "https://media.api-sports.io/football/teams/9391.png",
+          "founded": 1935
+      },
+      {
+          "teamId": 9392,
+          "name": "L'Hospitalet",
+          "logo": "https://media.api-sports.io/football/teams/9392.png",
+          "founded": 1957
+      },
+      {
+          "teamId": 9393,
+          "name": "La Nucía",
+          "logo": "https://media.api-sports.io/football/teams/9393.png",
+          "founded": 1995
+      },
+      {
+          "teamId": 9394,
+          "name": "Laredo",
+          "logo": "https://media.api-sports.io/football/teams/9394.png",
+          "founded": 1927
+      },
+      {
+          "teamId": 9395,
+          "name": "Las Rozas",
+          "logo": "https://media.api-sports.io/football/teams/9395.png",
+          "founded": null
+      },
+      {
+          "teamId": 9396,
+          "name": "Lealtad",
+          "logo": "https://media.api-sports.io/football/teams/9396.png",
+          "founded": 1916
+      },
+      {
+          "teamId": 9397,
+          "name": "Leioa",
+          "logo": "https://media.api-sports.io/football/teams/9397.png",
+          "founded": 1925
+      },
+      {
+          "teamId": 9398,
+          "name": "Linares Deportivo",
+          "logo": "https://media.api-sports.io/football/teams/9398.png",
+          "founded": 2009
+      },
+      {
+          "teamId": 9399,
+          "name": "Llagostera",
+          "logo": "https://media.api-sports.io/football/teams/9399.png",
+          "founded": 1947
+      },
+      {
+          "teamId": 9400,
+          "name": "Lorca Deportiva",
+          "logo": "https://media.api-sports.io/football/teams/9400.png",
+          "founded": 2012
+      },
+      {
+          "teamId": 9401,
+          "name": "Marino de Luanco",
+          "logo": "https://media.api-sports.io/football/teams/9401.png",
+          "founded": 1931
+      },
+      {
+          "teamId": 9402,
+          "name": "Mérida",
+          "logo": "https://media.api-sports.io/football/teams/9402.png",
+          "founded": 2003
+      },
+      {
+          "teamId": 9403,
+          "name": "Olot",
+          "logo": "https://media.api-sports.io/football/teams/9403.png",
+          "founded": 1921
+      },
+      {
+          "teamId": 9404,
+          "name": "Orihuela",
+          "logo": "https://media.api-sports.io/football/teams/9404.png",
+          "founded": 1993
+      },
+      {
+          "teamId": 9405,
+          "name": "Peña Deportiva",
+          "logo": "https://media.api-sports.io/football/teams/9405.png",
+          "founded": null
+      },
+      {
+          "teamId": 9406,
+          "name": "Peña Sport",
+          "logo": "https://media.api-sports.io/football/teams/9406.png",
+          "founded": 1925
+      },
+      {
+          "teamId": 9407,
+          "name": "Pontevedra",
+          "logo": "https://media.api-sports.io/football/teams/9407.png",
+          "founded": 1941
+      },
+      {
+          "teamId": 9408,
+          "name": "Portugalete",
+          "logo": "https://media.api-sports.io/football/teams/9408.png",
+          "founded": 1944
+      },
+      {
+          "teamId": 9409,
+          "name": "Racing Ferrol",
+          "logo": "https://media.api-sports.io/football/teams/9409.png",
+          "founded": 1919
+      },
+      {
+          "teamId": 9410,
+          "name": "Recreativo Huelva",
+          "logo": "https://media.api-sports.io/football/teams/9410.png",
+          "founded": 1889
+      },
+      {
+          "teamId": 9411,
+          "name": "SD Logroñés",
+          "logo": "https://media.api-sports.io/football/teams/9411.png",
+          "founded": 2009
+      },
+      {
+          "teamId": 9412,
+          "name": "SS Reyes",
+          "logo": "https://media.api-sports.io/football/teams/9412.png",
+          "founded": 1971
+      },
+      {
+          "teamId": 9413,
+          "name": "Sestao River",
+          "logo": "https://media.api-sports.io/football/teams/9413.png",
+          "founded": 1996
+      },
+      {
+          "teamId": 9414,
+          "name": "Socuéllamos",
+          "logo": "https://media.api-sports.io/football/teams/9414.png",
+          "founded": 1924
+      },
+      {
+          "teamId": 9415,
+          "name": "Tamaraceite",
+          "logo": "https://media.api-sports.io/football/teams/9415.png",
+          "founded": 1966
+      },
+      {
+          "teamId": 9416,
+          "name": "Tarazona",
+          "logo": "https://media.api-sports.io/football/teams/9416.png",
+          "founded": 1969
+      },
+      {
+          "teamId": 9417,
+          "name": "Villarrubia",
+          "logo": "https://media.api-sports.io/football/teams/9417.png",
+          "founded": 1959
+      },
+      {
+          "teamId": 9418,
+          "name": "Zamora",
+          "logo": "https://media.api-sports.io/football/teams/9418.png",
+          "founded": 1969
+      },
+      {
+          "teamId": 9479,
+          "name": "Villafranca",
+          "logo": "https://media.api-sports.io/football/teams/9479.png",
+          "founded": null
+      },
+      {
+          "teamId": 9570,
+          "name": "Atlético Madrid II",
+          "logo": "https://media.api-sports.io/football/teams/9570.png",
+          "founded": 1903
+      },
+      {
+          "teamId": 9571,
+          "name": "Celta de Vigo II",
+          "logo": "https://media.api-sports.io/football/teams/9571.png",
+          "founded": 1923
+      },
+      {
+          "teamId": 9572,
+          "name": "Getafe II",
+          "logo": "https://media.api-sports.io/football/teams/9572.png",
+          "founded": null
+      },
+      {
+          "teamId": 9573,
+          "name": "Internacional de Madrid",
+          "logo": "https://media.api-sports.io/football/teams/9573.png",
+          "founded": 2002
+      },
+      {
+          "teamId": 9574,
+          "name": "Las Palmas II",
+          "logo": "https://media.api-sports.io/football/teams/9574.png",
+          "founded": null
+      },
+      {
+          "teamId": 9575,
+          "name": "Real Madrid II",
+          "logo": "https://media.api-sports.io/football/teams/9575.png",
+          "founded": 1972
+      },
+      {
+          "teamId": 9576,
+          "name": "Real Oviedo II",
+          "logo": "https://media.api-sports.io/football/teams/9576.png",
+          "founded": 1943
+      },
+      {
+          "teamId": 9577,
+          "name": "Sporting Gijón II",
+          "logo": "https://media.api-sports.io/football/teams/9577.png",
+          "founded": 1955
+      },
+      {
+          "teamId": 9578,
+          "name": "Arenas Getxo",
+          "logo": "https://media.api-sports.io/football/teams/9578.png",
+          "founded": 1909
+      },
+      {
+          "teamId": 9579,
+          "name": "Athletic Club II",
+          "logo": "https://media.api-sports.io/football/teams/9579.png",
+          "founded": 1964
+      },
+      {
+          "teamId": 9580,
+          "name": "Burgos",
+          "logo": "https://media.api-sports.io/football/teams/9580.png",
+          "founded": 1922
+      },
+      {
+          "teamId": 9581,
+          "name": "Calahorra",
+          "logo": "https://media.api-sports.io/football/teams/9581.png",
+          "founded": 1942
+      },
+      {
+          "teamId": 9582,
+          "name": "Deportivo Alavés II",
+          "logo": "https://media.api-sports.io/football/teams/9582.png",
+          "founded": null
+      },
+      {
+          "teamId": 9583,
+          "name": "Izarra",
+          "logo": "https://media.api-sports.io/football/teams/9583.png",
+          "founded": 1924
+      },
+      {
+          "teamId": 9584,
+          "name": "Osasuna II",
+          "logo": "https://media.api-sports.io/football/teams/9584.png",
+          "founded": 1920
+      },
+      {
+          "teamId": 9585,
+          "name": "Real Sociedad II",
+          "logo": "https://media.api-sports.io/football/teams/9585.png",
+          "founded": null
+      },
+      {
+          "teamId": 9586,
+          "name": "Real Unión",
+          "logo": "https://media.api-sports.io/football/teams/9586.png",
+          "founded": 1915
+      },
+      {
+          "teamId": 9587,
+          "name": "Real Valladolid II",
+          "logo": "https://media.api-sports.io/football/teams/9587.png",
+          "founded": null
+      },
+      {
+          "teamId": 9588,
+          "name": "Salamanca UDS",
+          "logo": "https://media.api-sports.io/football/teams/9588.png",
+          "founded": 2013
+      },
+      {
+          "teamId": 9589,
+          "name": "Ejea",
+          "logo": "https://media.api-sports.io/football/teams/9589.png",
+          "founded": 1927
+      },
+      {
+          "teamId": 9590,
+          "name": "Espanyol II",
+          "logo": "https://media.api-sports.io/football/teams/9590.png",
+          "founded": 1900
+      },
+      {
+          "teamId": 9591,
+          "name": "Levante II",
+          "logo": "https://media.api-sports.io/football/teams/9591.png",
+          "founded": null
+      },
+      {
+          "teamId": 9592,
+          "name": "Prat",
+          "logo": "https://media.api-sports.io/football/teams/9592.png",
+          "founded": 1945
+      },
+      {
+          "teamId": 9593,
+          "name": "Sabadell",
+          "logo": "https://media.api-sports.io/football/teams/9593.png",
+          "founded": 1903
+      },
+      {
+          "teamId": 9594,
+          "name": "Valencia II",
+          "logo": "https://media.api-sports.io/football/teams/9594.png",
+          "founded": 1919
+      },
+      {
+          "teamId": 9595,
+          "name": "Villarreal II",
+          "logo": "https://media.api-sports.io/football/teams/9595.png",
+          "founded": 1923
+      },
+      {
+          "teamId": 9596,
+          "name": "Linense",
+          "logo": "https://media.api-sports.io/football/teams/9596.png",
+          "founded": 1912
+      },
+      {
+          "teamId": 9597,
+          "name": "Algeciras",
+          "logo": "https://media.api-sports.io/football/teams/9597.png",
+          "founded": 1912
+      },
+      {
+          "teamId": 9598,
+          "name": "Cádiz II",
+          "logo": "https://media.api-sports.io/football/teams/9598.png",
+          "founded": null
+      },
+      {
+          "teamId": 9599,
+          "name": "Granada II",
+          "logo": "https://media.api-sports.io/football/teams/9599.png",
+          "founded": null
+      },
+      {
+          "teamId": 9600,
+          "name": "San Fernando CD",
+          "logo": "https://media.api-sports.io/football/teams/9600.png",
+          "founded": 2009
+      },
+      {
+          "teamId": 9601,
+          "name": "Sanluqueño",
+          "logo": "https://media.api-sports.io/football/teams/9601.png",
+          "founded": null
+      },
+      {
+          "teamId": 9602,
+          "name": "Villarrobledo",
+          "logo": "https://media.api-sports.io/football/teams/9602.png",
+          "founded": null
+      },
+      {
+          "teamId": 9603,
+          "name": "Alondras",
+          "logo": "https://media.api-sports.io/football/teams/9603.png",
+          "founded": 1928
+      },
+      {
+          "teamId": 9604,
+          "name": "Arenteiro",
+          "logo": "https://media.api-sports.io/football/teams/9604.png",
+          "founded": null
+      },
+      {
+          "teamId": 9605,
+          "name": "Arosa",
+          "logo": "https://media.api-sports.io/football/teams/9605.png",
+          "founded": 1945
+      },
+      {
+          "teamId": 9606,
+          "name": "Arzúa",
+          "logo": "https://media.api-sports.io/football/teams/9606.png",
+          "founded": null
+      },
+      {
+          "teamId": 9607,
+          "name": "As Pontes",
+          "logo": "https://media.api-sports.io/football/teams/9607.png",
+          "founded": 1960
+      },
+      {
+          "teamId": 9608,
+          "name": "Barco",
+          "logo": "https://media.api-sports.io/football/teams/9608.png",
+          "founded": null
+      },
+      {
+          "teamId": 9609,
+          "name": "Choco",
+          "logo": "https://media.api-sports.io/football/teams/9609.png",
+          "founded": 1953
+      },
+      {
+          "teamId": 9610,
+          "name": "Deportivo La Coruña II",
+          "logo": "https://media.api-sports.io/football/teams/9610.png",
+          "founded": 1906
+      },
+      {
+          "teamId": 9611,
+          "name": "Estradense",
+          "logo": "https://media.api-sports.io/football/teams/9611.png",
+          "founded": 1925
+      },
+      {
+          "teamId": 9612,
+          "name": "Ourense CF",
+          "logo": "https://media.api-sports.io/football/teams/9612.png",
+          "founded": null
+      },
+      {
+          "teamId": 9613,
+          "name": "Paiosaco",
+          "logo": "https://media.api-sports.io/football/teams/9613.png",
+          "founded": null
+      },
+      {
+          "teamId": 9614,
+          "name": "Polvorín",
+          "logo": "https://media.api-sports.io/football/teams/9614.png",
+          "founded": null
+      },
+      {
+          "teamId": 9615,
+          "name": "Silva",
+          "logo": "https://media.api-sports.io/football/teams/9615.png",
+          "founded": null
+      },
+      {
+          "teamId": 9616,
+          "name": "Somozas",
+          "logo": "https://media.api-sports.io/football/teams/9616.png",
+          "founded": 1985
+      },
+      {
+          "teamId": 9617,
+          "name": "UD Ourense",
+          "logo": "https://media.api-sports.io/football/teams/9617.png",
+          "founded": 2014
+      },
+      {
+          "teamId": 9618,
+          "name": "Villalbés",
+          "logo": "https://media.api-sports.io/football/teams/9618.png",
+          "founded": 1931
+      },
+      {
+          "teamId": 9619,
+          "name": "Caudal",
+          "logo": "https://media.api-sports.io/football/teams/9619.png",
+          "founded": null
+      },
+      {
+          "teamId": 9620,
+          "name": "Ceares",
+          "logo": "https://media.api-sports.io/football/teams/9620.png",
+          "founded": 1946
+      },
+      {
+          "teamId": 9621,
+          "name": "Colunga",
+          "logo": "https://media.api-sports.io/football/teams/9621.png",
+          "founded": 1934
+      },
+      {
+          "teamId": 9622,
+          "name": "Condal",
+          "logo": "https://media.api-sports.io/football/teams/9622.png",
+          "founded": 1940
+      },
+      {
+          "teamId": 9623,
+          "name": "Covadonga",
+          "logo": "https://media.api-sports.io/football/teams/9623.png",
+          "founded": 1979
+      },
+      {
+          "teamId": 9624,
+          "name": "Gijón Industrial",
+          "logo": "https://media.api-sports.io/football/teams/9624.png",
+          "founded": 1969
+      },
+      {
+          "teamId": 9625,
+          "name": "L'Entregu",
+          "logo": "https://media.api-sports.io/football/teams/9625.png",
+          "founded": 1939
+      },
+      {
+          "teamId": 9626,
+          "name": "Lenense",
+          "logo": "https://media.api-sports.io/football/teams/9626.png",
+          "founded": 1953
+      },
+      {
+          "teamId": 9627,
+          "name": "Llanera",
+          "logo": "https://media.api-sports.io/football/teams/9627.png",
+          "founded": null
+      },
+      {
+          "teamId": 9628,
+          "name": "Llanes",
+          "logo": "https://media.api-sports.io/football/teams/9628.png",
+          "founded": 1949
+      },
+      {
+          "teamId": 9629,
+          "name": "Mosconia",
+          "logo": "https://media.api-sports.io/football/teams/9629.png",
+          "founded": null
+      },
+      {
+          "teamId": 9630,
+          "name": "Navarro",
+          "logo": "https://media.api-sports.io/football/teams/9630.png",
+          "founded": 1980
+      },
+      {
+          "teamId": 9631,
+          "name": "Praviano",
+          "logo": "https://media.api-sports.io/football/teams/9631.png",
+          "founded": null
+      },
+      {
+          "teamId": 9632,
+          "name": "Real Avilés",
+          "logo": "https://media.api-sports.io/football/teams/9632.png",
+          "founded": 1903
+      },
+      {
+          "teamId": 9633,
+          "name": "San Martín",
+          "logo": "https://media.api-sports.io/football/teams/9633.png",
+          "founded": 1950
+      },
+      {
+          "teamId": 9634,
+          "name": "Siero",
+          "logo": "https://media.api-sports.io/football/teams/9634.png",
+          "founded": null
+      },
+      {
+          "teamId": 9635,
+          "name": "Tuilla",
+          "logo": "https://media.api-sports.io/football/teams/9635.png",
+          "founded": 1952
+      },
+      {
+          "teamId": 9636,
+          "name": "Vallobín",
+          "logo": "https://media.api-sports.io/football/teams/9636.png",
+          "founded": null
+      },
+      {
+          "teamId": 9637,
+          "name": "Atlético Albericia",
+          "logo": "https://media.api-sports.io/football/teams/9637.png",
+          "founded": null
+      },
+      {
+          "teamId": 9638,
+          "name": "Barreda",
+          "logo": "https://media.api-sports.io/football/teams/9638.png",
+          "founded": 1917
+      },
+      {
+          "teamId": 9639,
+          "name": "Bezana",
+          "logo": "https://media.api-sports.io/football/teams/9639.png",
+          "founded": 1965
+      },
+      {
+          "teamId": 9640,
+          "name": "Cartes",
+          "logo": "https://media.api-sports.io/football/teams/9640.png",
+          "founded": null
+      },
+      {
+          "teamId": 9641,
+          "name": "Cayón",
+          "logo": "https://media.api-sports.io/football/teams/9641.png",
+          "founded": null
+      },
+      {
+          "teamId": 9642,
+          "name": "Guarnizo",
+          "logo": "https://media.api-sports.io/football/teams/9642.png",
+          "founded": 1922
+      },
+      {
+          "teamId": 9643,
+          "name": "Racing Santander II",
+          "logo": "https://media.api-sports.io/football/teams/9643.png",
+          "founded": 1926
+      },
+      {
+          "teamId": 9644,
+          "name": "Ribamontán al Mar",
+          "logo": "https://media.api-sports.io/football/teams/9644.png",
+          "founded": 1971
+      },
+      {
+          "teamId": 9645,
+          "name": "Selaya",
+          "logo": "https://media.api-sports.io/football/teams/9645.png",
+          "founded": 1931
+      },
+      {
+          "teamId": 9646,
+          "name": "Siete Villas",
+          "logo": "https://media.api-sports.io/football/teams/9646.png",
+          "founded": 1930
+      },
+      {
+          "teamId": 9647,
+          "name": "Solares",
+          "logo": "https://media.api-sports.io/football/teams/9647.png",
+          "founded": 1968
+      },
+      {
+          "teamId": 9648,
+          "name": "Sámano",
+          "logo": "https://media.api-sports.io/football/teams/9648.png",
+          "founded": null
+      },
+      {
+          "teamId": 9649,
+          "name": "Textil Escudo",
+          "logo": "https://media.api-sports.io/football/teams/9649.png",
+          "founded": null
+      },
+      {
+          "teamId": 9650,
+          "name": "Torina",
+          "logo": "https://media.api-sports.io/football/teams/9650.png",
+          "founded": null
+      },
+      {
+          "teamId": 9651,
+          "name": "Tropezón",
+          "logo": "https://media.api-sports.io/football/teams/9651.png",
+          "founded": 1983
+      },
+      {
+          "teamId": 9652,
+          "name": "Vimenor",
+          "logo": "https://media.api-sports.io/football/teams/9652.png",
+          "founded": 1929
+      },
+      {
+          "teamId": 9653,
+          "name": "Vitoria",
+          "logo": "https://media.api-sports.io/football/teams/9653.png",
+          "founded": 1935
+      },
+      {
+          "teamId": 9654,
+          "name": "Ariznabarra",
+          "logo": "https://media.api-sports.io/football/teams/9654.png",
+          "founded": null
+      },
+      {
+          "teamId": 9655,
+          "name": "Balmaseda",
+          "logo": "https://media.api-sports.io/football/teams/9655.png",
+          "founded": null
+      },
+      {
+          "teamId": 9656,
+          "name": "Basconia",
+          "logo": "https://media.api-sports.io/football/teams/9656.png",
+          "founded": 1913
+      },
+      {
+          "teamId": 9657,
+          "name": "Beasain",
+          "logo": "https://media.api-sports.io/football/teams/9657.png",
+          "founded": 1905
+      },
+      {
+          "teamId": 9658,
+          "name": "Deusto",
+          "logo": "https://media.api-sports.io/football/teams/9658.png",
+          "founded": 1913
+      },
+      {
+          "teamId": 9659,
+          "name": "JD Somorrostro",
+          "logo": "https://media.api-sports.io/football/teams/9659.png",
+          "founded": 1943
+      },
+      {
+          "teamId": 9660,
+          "name": "Lagun Onak",
+          "logo": "https://media.api-sports.io/football/teams/9660.png",
+          "founded": 1944
+      },
+      {
+          "teamId": 9661,
+          "name": "Pasaia KE",
+          "logo": "https://media.api-sports.io/football/teams/9661.png",
+          "founded": 1941
+      },
+      {
+          "teamId": 9662,
+          "name": "Real Sociedad III",
+          "logo": "https://media.api-sports.io/football/teams/9662.png",
+          "founded": 1998
+      },
+      {
+          "teamId": 9663,
+          "name": "San Ignacio",
+          "logo": "https://media.api-sports.io/football/teams/9663.png",
+          "founded": null
+      },
+      {
+          "teamId": 9664,
+          "name": "Santurtzi",
+          "logo": "https://media.api-sports.io/football/teams/9664.png",
+          "founded": 1952
+      },
+      {
+          "teamId": 9665,
+          "name": "Santutxu",
+          "logo": "https://media.api-sports.io/football/teams/9665.png",
+          "founded": 1918
+      },
+      {
+          "teamId": 9666,
+          "name": "Sodupe",
+          "logo": "https://media.api-sports.io/football/teams/9666.png",
+          "founded": null
+      },
+      {
+          "teamId": 9667,
+          "name": "Urduliz",
+          "logo": "https://media.api-sports.io/football/teams/9667.png",
+          "founded": null
+      },
+      {
+          "teamId": 9668,
+          "name": "Banyoles",
+          "logo": "https://media.api-sports.io/football/teams/9668.png",
+          "founded": null
+      },
+      {
+          "teamId": 9669,
+          "name": "Castelldefels",
+          "logo": "https://media.api-sports.io/football/teams/9669.png",
+          "founded": 1948
+      },
+      {
+          "teamId": 9670,
+          "name": "Cerdanyola del Vallès",
+          "logo": "https://media.api-sports.io/football/teams/9670.png",
+          "founded": null
+      },
+      {
+          "teamId": 9671,
+          "name": "Figueres",
+          "logo": "https://media.api-sports.io/football/teams/9671.png",
+          "founded": 1919
+      },
+      {
+          "teamId": 9672,
+          "name": "Granollers",
+          "logo": "https://media.api-sports.io/football/teams/9672.png",
+          "founded": 1913
+      },
+      {
+          "teamId": 9673,
+          "name": "Horta",
+          "logo": "https://media.api-sports.io/football/teams/9673.png",
+          "founded": 1922
+      },
+      {
+          "teamId": 9674,
+          "name": "Igualada",
+          "logo": "https://media.api-sports.io/football/teams/9674.png",
+          "founded": null
+      },
+      {
+          "teamId": 9675,
+          "name": "Manresa",
+          "logo": "https://media.api-sports.io/football/teams/9675.png",
+          "founded": null
+      },
+      {
+          "teamId": 9676,
+          "name": "Peralada",
+          "logo": "https://media.api-sports.io/football/teams/9676.png",
+          "founded": 1915
+      },
+      {
+          "teamId": 9677,
+          "name": "Pobla Mafumet",
+          "logo": "https://media.api-sports.io/football/teams/9677.png",
+          "founded": 1953
+      },
+      {
+          "teamId": 9678,
+          "name": "San Cristóbal",
+          "logo": "https://media.api-sports.io/football/teams/9678.png",
+          "founded": null
+      },
+      {
+          "teamId": 9679,
+          "name": "Santfeliuenc",
+          "logo": "https://media.api-sports.io/football/teams/9679.png",
+          "founded": 1905
+      },
+      {
+          "teamId": 9680,
+          "name": "Sants",
+          "logo": "https://media.api-sports.io/football/teams/9680.png",
+          "founded": null
+      },
+      {
+          "teamId": 9681,
+          "name": "Terrassa",
+          "logo": "https://media.api-sports.io/football/teams/9681.png",
+          "founded": 1906
+      },
+      {
+          "teamId": 9682,
+          "name": "Vilafranca",
+          "logo": "https://media.api-sports.io/football/teams/9682.png",
+          "founded": 1904
+      },
+      {
+          "teamId": 9683,
+          "name": "Vilassar Mar",
+          "logo": "https://media.api-sports.io/football/teams/9683.png",
+          "founded": 1946
+      },
+      {
+          "teamId": 9684,
+          "name": "Roda",
+          "logo": "https://media.api-sports.io/football/teams/9684.png",
+          "founded": null
+      },
+      {
+          "teamId": 9685,
+          "name": "Acero",
+          "logo": "https://media.api-sports.io/football/teams/9685.png",
+          "founded": 1919
+      },
+      {
+          "teamId": 9686,
+          "name": "Alcoyano",
+          "logo": "https://media.api-sports.io/football/teams/9686.png",
+          "founded": 1929
+      },
+      {
+          "teamId": 9687,
+          "name": "Alzira",
+          "logo": "https://media.api-sports.io/football/teams/9687.png",
+          "founded": 1922
+      },
+      {
+          "teamId": 9688,
+          "name": "Atzeneta",
+          "logo": "https://media.api-sports.io/football/teams/9688.png",
+          "founded": null
+      },
+      {
+          "teamId": 9689,
+          "name": "Benigànim",
+          "logo": "https://media.api-sports.io/football/teams/9689.png",
+          "founded": null
+      },
+      {
+          "teamId": 9690,
+          "name": "Crevillente",
+          "logo": "https://media.api-sports.io/football/teams/9690.png",
+          "founded": null
+      },
+      {
+          "teamId": 9691,
+          "name": "Elche II",
+          "logo": "https://media.api-sports.io/football/teams/9691.png",
+          "founded": 1932
+      },
+      {
+          "teamId": 9692,
+          "name": "Eldense",
+          "logo": "https://media.api-sports.io/football/teams/9692.png",
+          "founded": 1921
+      },
+      {
+          "teamId": 9693,
+          "name": "Hércules II",
+          "logo": "https://media.api-sports.io/football/teams/9693.png",
+          "founded": null
+      },
+      {
+          "teamId": 9694,
+          "name": "Jove Español",
+          "logo": "https://media.api-sports.io/football/teams/9694.png",
+          "founded": 2004
+      },
+      {
+          "teamId": 9695,
+          "name": "Novelda",
+          "logo": "https://media.api-sports.io/football/teams/9695.png",
+          "founded": 1925
+      },
+      {
+          "teamId": 9696,
+          "name": "Olímpic Xàtiva",
+          "logo": "https://media.api-sports.io/football/teams/9696.png",
+          "founded": 1932
+      },
+      {
+          "teamId": 9697,
+          "name": "Paterna",
+          "logo": "https://media.api-sports.io/football/teams/9697.png",
+          "founded": 2007
+      },
+      {
+          "teamId": 9698,
+          "name": "RC Catarroja",
+          "logo": "https://media.api-sports.io/football/teams/9698.png",
+          "founded": 2003
+      },
+      {
+          "teamId": 9699,
+          "name": "Saguntino",
+          "logo": "https://media.api-sports.io/football/teams/9699.png",
+          "founded": 1951
+      },
+      {
+          "teamId": 9700,
+          "name": "Silla",
+          "logo": "https://media.api-sports.io/football/teams/9700.png",
+          "founded": null
+      },
+      {
+          "teamId": 9701,
+          "name": "Vilamarxant",
+          "logo": "https://media.api-sports.io/football/teams/9701.png",
+          "founded": null
+      },
+      {
+          "teamId": 9702,
+          "name": "Villarreal III",
+          "logo": "https://media.api-sports.io/football/teams/9702.png",
+          "founded": null
+      },
+      {
+          "teamId": 9703,
+          "name": "Santa Ana",
+          "logo": "https://media.api-sports.io/football/teams/9703.png",
+          "founded": null
+      },
+      {
+          "teamId": 9704,
+          "name": "AD Parla",
+          "logo": "https://media.api-sports.io/football/teams/9704.png",
+          "founded": null
+      },
+      {
+          "teamId": 9705,
+          "name": "Alcobendas Sport",
+          "logo": "https://media.api-sports.io/football/teams/9705.png",
+          "founded": 1995
+      },
+      {
+          "teamId": 9706,
+          "name": "Alcorcón II",
+          "logo": "https://media.api-sports.io/football/teams/9706.png",
+          "founded": null
+      },
+      {
+          "teamId": 9707,
+          "name": "Atlético Pinto",
+          "logo": "https://media.api-sports.io/football/teams/9707.png",
+          "founded": 1963
+      },
+      {
+          "teamId": 9708,
+          "name": "Carabanchel",
+          "logo": "https://media.api-sports.io/football/teams/9708.png",
+          "founded": null
+      },
+      {
+          "teamId": 9709,
+          "name": "Flat Earth",
+          "logo": "https://media.api-sports.io/football/teams/9709.png",
+          "founded": 2019
+      },
+      {
+          "teamId": 9710,
+          "name": "Leganés II",
+          "logo": "https://media.api-sports.io/football/teams/9710.png",
+          "founded": null
+      },
+      {
+          "teamId": 9711,
+          "name": "Moratalaz",
+          "logo": "https://media.api-sports.io/football/teams/9711.png",
+          "founded": null
+      },
+      {
+          "teamId": 9712,
+          "name": "Móstoles",
+          "logo": "https://media.api-sports.io/football/teams/9712.png",
+          "founded": 1996
+      },
+      {
+          "teamId": 9713,
+          "name": "Pozuelo Alarcón",
+          "logo": "https://media.api-sports.io/football/teams/9713.png",
+          "founded": null
+      },
+      {
+          "teamId": 9714,
+          "name": "RSD Alcalá",
+          "logo": "https://media.api-sports.io/football/teams/9714.png",
+          "founded": 1929
+      },
+      {
+          "teamId": 9715,
+          "name": "Rayo Vallecano II",
+          "logo": "https://media.api-sports.io/football/teams/9715.png",
+          "founded": 1924
+      },
+      {
+          "teamId": 9716,
+          "name": "San Fernando Henares",
+          "logo": "https://media.api-sports.io/football/teams/9716.png",
+          "founded": 1929
+      },
+      {
+          "teamId": 9717,
+          "name": "Torrejón",
+          "logo": "https://media.api-sports.io/football/teams/9717.png",
+          "founded": 2002
+      },
+      {
+          "teamId": 9718,
+          "name": "Trival Valderas",
+          "logo": "https://media.api-sports.io/football/teams/9718.png",
+          "founded": null
+      },
+      {
+          "teamId": 9719,
+          "name": "Unión Adarve",
+          "logo": "https://media.api-sports.io/football/teams/9719.png",
+          "founded": null
+      },
+      {
+          "teamId": 9720,
+          "name": "Villaverde-Boetticher",
+          "logo": "https://media.api-sports.io/football/teams/9720.png",
+          "founded": null
+      },
+      {
+          "teamId": 9721,
+          "name": "Almazán",
+          "logo": "https://media.api-sports.io/football/teams/9721.png",
+          "founded": null
+      },
+      {
+          "teamId": 9722,
+          "name": "Arandina",
+          "logo": "https://media.api-sports.io/football/teams/9722.png",
+          "founded": 1987
+      },
+      {
+          "teamId": 9723,
+          "name": "Atlético Astorga",
+          "logo": "https://media.api-sports.io/football/teams/9723.png",
+          "founded": null
+      },
+      {
+          "teamId": 9724,
+          "name": "Atlético Tordesillas",
+          "logo": "https://media.api-sports.io/football/teams/9724.png",
+          "founded": 1969
+      },
+      {
+          "teamId": 9725,
+          "name": "Bembibre",
+          "logo": "https://media.api-sports.io/football/teams/9725.png",
+          "founded": null
+      },
+      {
+          "teamId": 9726,
+          "name": "Bupolsa",
+          "logo": "https://media.api-sports.io/football/teams/9726.png",
+          "founded": 2006
+      },
+      {
+          "teamId": 9727,
+          "name": "Burgos Promesas",
+          "logo": "https://media.api-sports.io/football/teams/9727.png",
+          "founded": null
+      },
+      {
+          "teamId": 9728,
+          "name": "Cristo Atlético",
+          "logo": "https://media.api-sports.io/football/teams/9728.png",
+          "founded": null
+      },
+      {
+          "teamId": 9729,
+          "name": "Cultural Leonesa II",
+          "logo": "https://media.api-sports.io/football/teams/9729.png",
+          "founded": null
+      },
+      {
+          "teamId": 9730,
+          "name": "La Bañeza",
+          "logo": "https://media.api-sports.io/football/teams/9730.png",
+          "founded": 1956
+      },
+      {
+          "teamId": 9731,
+          "name": "La Granja",
+          "logo": "https://media.api-sports.io/football/teams/9731.png",
+          "founded": null
+      },
+      {
+          "teamId": 9732,
+          "name": "La Virgen del Camino",
+          "logo": "https://media.api-sports.io/football/teams/9732.png",
+          "founded": null
+      },
+      {
+          "teamId": 9733,
+          "name": "Mirandés II",
+          "logo": "https://media.api-sports.io/football/teams/9733.png",
+          "founded": null
+      },
+      {
+          "teamId": 9734,
+          "name": "Numancia II",
+          "logo": "https://media.api-sports.io/football/teams/9734.png",
+          "founded": null
+      },
+      {
+          "teamId": 9735,
+          "name": "Real Burgos",
+          "logo": "https://media.api-sports.io/football/teams/9735.png",
+          "founded": null
+      },
+      {
+          "teamId": 9736,
+          "name": "Real Ávila",
+          "logo": "https://media.api-sports.io/football/teams/9736.png",
+          "founded": null
+      },
+      {
+          "teamId": 9737,
+          "name": "Salamanca II",
+          "logo": "https://media.api-sports.io/football/teams/9737.png",
+          "founded": null
+      },
+      {
+          "teamId": 9738,
+          "name": "UD Santa Marta",
+          "logo": "https://media.api-sports.io/football/teams/9738.png",
+          "founded": null
+      },
+      {
+          "teamId": 9739,
+          "name": "Vélez",
+          "logo": "https://media.api-sports.io/football/teams/9739.png",
+          "founded": 1922
+      },
+      {
+          "teamId": 9740,
+          "name": "Alhaurín",
+          "logo": "https://media.api-sports.io/football/teams/9740.png",
+          "founded": null
+      },
+      {
+          "teamId": 9741,
+          "name": "Almería II",
+          "logo": "https://media.api-sports.io/football/teams/9741.png",
+          "founded": null
+      },
+      {
+          "teamId": 9742,
+          "name": "Antequera",
+          "logo": "https://media.api-sports.io/football/teams/9742.png",
+          "founded": 1992
+      },
+      {
+          "teamId": 9743,
+          "name": "Ciudad de Torredonjimeno",
+          "logo": "https://media.api-sports.io/football/teams/9743.png",
+          "founded": null
+      },
+      {
+          "teamId": 9744,
+          "name": "El Ejido",
+          "logo": "https://media.api-sports.io/football/teams/9744.png",
+          "founded": 2012
+      },
+      {
+          "teamId": 9745,
+          "name": "El Palo",
+          "logo": "https://media.api-sports.io/football/teams/9745.png",
+          "founded": 1971
+      },
+      {
+          "teamId": 9746,
+          "name": "Huétor Tájar",
+          "logo": "https://media.api-sports.io/football/teams/9746.png",
+          "founded": 1938
+      },
+      {
+          "teamId": 9747,
+          "name": "Huétor Vega",
+          "logo": "https://media.api-sports.io/football/teams/9747.png",
+          "founded": null
+      },
+      {
+          "teamId": 9748,
+          "name": "Loja",
+          "logo": "https://media.api-sports.io/football/teams/9748.png",
+          "founded": 1968
+      },
+      {
+          "teamId": 9749,
+          "name": "Mancha Real",
+          "logo": "https://media.api-sports.io/football/teams/9749.png",
+          "founded": 1984
+      },
+      {
+          "teamId": 9750,
+          "name": "Maracena",
+          "logo": "https://media.api-sports.io/football/teams/9750.png",
+          "founded": 1945
+      },
+      {
+          "teamId": 9751,
+          "name": "Motril",
+          "logo": "https://media.api-sports.io/football/teams/9751.png",
+          "founded": null
+      },
+      {
+          "teamId": 9752,
+          "name": "Málaga II",
+          "logo": "https://media.api-sports.io/football/teams/9752.png",
+          "founded": null
+      },
+      {
+          "teamId": 9753,
+          "name": "Polideportivo Almería",
+          "logo": "https://media.api-sports.io/football/teams/9753.png",
+          "founded": 1983
+      },
+      {
+          "teamId": 9754,
+          "name": "Torreperogil",
+          "logo": "https://media.api-sports.io/football/teams/9754.png",
+          "founded": null
+      },
+      {
+          "teamId": 9755,
+          "name": "Arcos",
+          "logo": "https://media.api-sports.io/football/teams/9755.png",
+          "founded": 1956
+      },
+      {
+          "teamId": 9756,
+          "name": "Ciudad de Lucena",
+          "logo": "https://media.api-sports.io/football/teams/9756.png",
+          "founded": null
+      },
+      {
+          "teamId": 9757,
+          "name": "Conil",
+          "logo": "https://media.api-sports.io/football/teams/9757.png",
+          "founded": 1931
+      },
+      {
+          "teamId": 9758,
+          "name": "Coria CF",
+          "logo": "https://media.api-sports.io/football/teams/9758.png",
+          "founded": 1923
+      },
+      {
+          "teamId": 9759,
+          "name": "Córdoba II",
+          "logo": "https://media.api-sports.io/football/teams/9759.png",
+          "founded": null
+      },
+      {
+          "teamId": 9760,
+          "name": "Gerena",
+          "logo": "https://media.api-sports.io/football/teams/9760.png",
+          "founded": 2006
+      },
+      {
+          "teamId": 9761,
+          "name": "Lebrijana",
+          "logo": "https://media.api-sports.io/football/teams/9761.png",
+          "founded": 1928
+      },
+      {
+          "teamId": 9762,
+          "name": "Los Barrios",
+          "logo": "https://media.api-sports.io/football/teams/9762.png",
+          "founded": null
+      },
+      {
+          "teamId": 9763,
+          "name": "Pozoblanco",
+          "logo": "https://media.api-sports.io/football/teams/9763.png",
+          "founded": 1926
+      },
+      {
+          "teamId": 9764,
+          "name": "Puente Genil",
+          "logo": "https://media.api-sports.io/football/teams/9764.png",
+          "founded": 1939
+      },
+      {
+          "teamId": 9765,
+          "name": "Real Betis II",
+          "logo": "https://media.api-sports.io/football/teams/9765.png",
+          "founded": null
+      },
+      {
+          "teamId": 9766,
+          "name": "Rota",
+          "logo": "https://media.api-sports.io/football/teams/9766.png",
+          "founded": null
+      },
+      {
+          "teamId": 9767,
+          "name": "San Roque Lepe",
+          "logo": "https://media.api-sports.io/football/teams/9767.png",
+          "founded": 1956
+      },
+      {
+          "teamId": 9768,
+          "name": "Sevilla III",
+          "logo": "https://media.api-sports.io/football/teams/9768.png",
+          "founded": null
+      },
+      {
+          "teamId": 9769,
+          "name": "Utrera",
+          "logo": "https://media.api-sports.io/football/teams/9769.png",
+          "founded": 1946
+      },
+      {
+          "teamId": 9770,
+          "name": "Xerez",
+          "logo": "https://media.api-sports.io/football/teams/9770.png",
+          "founded": 1947
+      },
+      {
+          "teamId": 9771,
+          "name": "Xerez Deportivo",
+          "logo": "https://media.api-sports.io/football/teams/9771.png",
+          "founded": null
+      },
+      {
+          "teamId": 9772,
+          "name": "Écija",
+          "logo": "https://media.api-sports.io/football/teams/9772.png",
+          "founded": 1939
+      },
+      {
+          "teamId": 9773,
+          "name": "Alcúdia",
+          "logo": "https://media.api-sports.io/football/teams/9773.png",
+          "founded": 1975
+      },
+      {
+          "teamId": 9774,
+          "name": "Binissalem",
+          "logo": "https://media.api-sports.io/football/teams/9774.png",
+          "founded": null
+      },
+      {
+          "teamId": 9775,
+          "name": "Collerense",
+          "logo": "https://media.api-sports.io/football/teams/9775.png",
+          "founded": null
+      },
+      {
+          "teamId": 9776,
+          "name": "Constància",
+          "logo": "https://media.api-sports.io/football/teams/9776.png",
+          "founded": 1922
+      },
+      {
+          "teamId": 9777,
+          "name": "Esporles",
+          "logo": "https://media.api-sports.io/football/teams/9777.png",
+          "founded": null
+      },
+      {
+          "teamId": 9778,
+          "name": "Felanitx",
+          "logo": "https://media.api-sports.io/football/teams/9778.png",
+          "founded": null
+      },
+      {
+          "teamId": 9779,
+          "name": "Ferriolense",
+          "logo": "https://media.api-sports.io/football/teams/9779.png",
+          "founded": null
+      },
+      {
+          "teamId": 9780,
+          "name": "Formentera",
+          "logo": "https://media.api-sports.io/football/teams/9780.png",
+          "founded": 1969
+      },
+      {
+          "teamId": 9781,
+          "name": "Ibiza Islas Pitiusas",
+          "logo": "https://media.api-sports.io/football/teams/9781.png",
+          "founded": null
+      },
+      {
+          "teamId": 9782,
+          "name": "Llosetense",
+          "logo": "https://media.api-sports.io/football/teams/9782.png",
+          "founded": null
+      },
+      {
+          "teamId": 9783,
+          "name": "Mallorca II",
+          "logo": "https://media.api-sports.io/football/teams/9783.png",
+          "founded": null
+      },
+      {
+          "teamId": 9784,
+          "name": "Manacor",
+          "logo": "https://media.api-sports.io/football/teams/9784.png",
+          "founded": null
+      },
+      {
+          "teamId": 9785,
+          "name": "Platges Calvià",
+          "logo": "https://media.api-sports.io/football/teams/9785.png",
+          "founded": null
+      },
+      {
+          "teamId": 9786,
+          "name": "Portmany",
+          "logo": "https://media.api-sports.io/football/teams/9786.png",
+          "founded": null
+      },
+      {
+          "teamId": 9787,
+          "name": "San Rafael",
+          "logo": "https://media.api-sports.io/football/teams/9787.png",
+          "founded": null
+      },
+      {
+          "teamId": 9788,
+          "name": "Santa Catalina Atlético",
+          "logo": "https://media.api-sports.io/football/teams/9788.png",
+          "founded": null
+      },
+      {
+          "teamId": 9789,
+          "name": "Santanyí",
+          "logo": "https://media.api-sports.io/football/teams/9789.png",
+          "founded": null
+      },
+      {
+          "teamId": 9790,
+          "name": "Sóller",
+          "logo": "https://media.api-sports.io/football/teams/9790.png",
+          "founded": 1954
+      },
+      {
+          "teamId": 9791,
+          "name": "Atlético Paso",
+          "logo": "https://media.api-sports.io/football/teams/9791.png",
+          "founded": null
+      },
+      {
+          "teamId": 9792,
+          "name": "Atlético Tacoronte",
+          "logo": "https://media.api-sports.io/football/teams/9792.png",
+          "founded": null
+      },
+      {
+          "teamId": 9793,
+          "name": "Buzanada",
+          "logo": "https://media.api-sports.io/football/teams/9793.png",
+          "founded": null
+      },
+      {
+          "teamId": 9794,
+          "name": "Güímar",
+          "logo": "https://media.api-sports.io/football/teams/9794.png",
+          "founded": null
+      },
+      {
+          "teamId": 9795,
+          "name": "Ibarra",
+          "logo": "https://media.api-sports.io/football/teams/9795.png",
+          "founded": null
+      },
+      {
+          "teamId": 9796,
+          "name": "La Cuadra",
+          "logo": "https://media.api-sports.io/football/teams/9796.png",
+          "founded": 2005
+      },
+      {
+          "teamId": 9797,
+          "name": "Lanzarote",
+          "logo": "https://media.api-sports.io/football/teams/9797.png",
+          "founded": 1970
+      },
+      {
+          "teamId": 9798,
+          "name": "Las Palmas III",
+          "logo": "https://media.api-sports.io/football/teams/9798.png",
+          "founded": null
+      },
+      {
+          "teamId": 9799,
+          "name": "Marino",
+          "logo": "https://media.api-sports.io/football/teams/9799.png",
+          "founded": null
+      },
+      {
+          "teamId": 9800,
+          "name": "Panadería Pulido",
+          "logo": "https://media.api-sports.io/football/teams/9800.png",
+          "founded": null
+      },
+      {
+          "teamId": 9801,
+          "name": "Santa Úrsula",
+          "logo": "https://media.api-sports.io/football/teams/9801.png",
+          "founded": null
+      },
+      {
+          "teamId": 9802,
+          "name": "Tenerife II",
+          "logo": "https://media.api-sports.io/football/teams/9802.png",
+          "founded": 1912
+      },
+      {
+          "teamId": 9803,
+          "name": "Tenisca",
+          "logo": "https://media.api-sports.io/football/teams/9803.png",
+          "founded": null
+      },
+      {
+          "teamId": 9804,
+          "name": "UD San Fernando",
+          "logo": "https://media.api-sports.io/football/teams/9804.png",
+          "founded": 1992
+      },
+      {
+          "teamId": 9805,
+          "name": "Unión Viera",
+          "logo": "https://media.api-sports.io/football/teams/9805.png",
+          "founded": 1962
+      },
+      {
+          "teamId": 9806,
+          "name": "Vera",
+          "logo": "https://media.api-sports.io/football/teams/9806.png",
+          "founded": null
+      },
+      {
+          "teamId": 9807,
+          "name": "Villa Santa Brígida",
+          "logo": "https://media.api-sports.io/football/teams/9807.png",
+          "founded": 2004
+      },
+      {
+          "teamId": 9808,
+          "name": "Atlético Pulpileño",
+          "logo": "https://media.api-sports.io/football/teams/9808.png",
+          "founded": 2002
+      },
+      {
+          "teamId": 9809,
+          "name": "CAP Ciudad de Murcia",
+          "logo": "https://media.api-sports.io/football/teams/9809.png",
+          "founded": 2010
+      },
+      {
+          "teamId": 9810,
+          "name": "Cartagena FC",
+          "logo": "https://media.api-sports.io/football/teams/9810.png",
+          "founded": null
+      },
+      {
+          "teamId": 9811,
+          "name": "Deportiva Minera",
+          "logo": "https://media.api-sports.io/football/teams/9811.png",
+          "founded": 1949
+      },
+      {
+          "teamId": 9812,
+          "name": "EDMF Churra",
+          "logo": "https://media.api-sports.io/football/teams/9812.png",
+          "founded": 2009
+      },
+      {
+          "teamId": 9813,
+          "name": "Huércal Overa",
+          "logo": "https://media.api-sports.io/football/teams/9813.png",
+          "founded": 1944
+      },
+      {
+          "teamId": 9814,
+          "name": "Los Garres",
+          "logo": "https://media.api-sports.io/football/teams/9814.png",
+          "founded": null
+      },
+      {
+          "teamId": 9815,
+          "name": "Mar Menor",
+          "logo": "https://media.api-sports.io/football/teams/9815.png",
+          "founded": 2007
+      },
+      {
+          "teamId": 9816,
+          "name": "Mazarrón FC",
+          "logo": "https://media.api-sports.io/football/teams/9816.png",
+          "founded": 2010
+      },
+      {
+          "teamId": 9817,
+          "name": "Muleño",
+          "logo": "https://media.api-sports.io/football/teams/9817.png",
+          "founded": 1989
+      },
+      {
+          "teamId": 9818,
+          "name": "Olímpico Totana",
+          "logo": "https://media.api-sports.io/football/teams/9818.png",
+          "founded": 1961
+      },
+      {
+          "teamId": 9819,
+          "name": "Plus Ultra",
+          "logo": "https://media.api-sports.io/football/teams/9819.png",
+          "founded": 1986
+      },
+      {
+          "teamId": 9820,
+          "name": "Real Murcia II",
+          "logo": "https://media.api-sports.io/football/teams/9820.png",
+          "founded": 1908
+      },
+      {
+          "teamId": 9821,
+          "name": "SFC Minerva",
+          "logo": "https://media.api-sports.io/football/teams/9821.png",
+          "founded": null
+      },
+      {
+          "teamId": 9822,
+          "name": "UCAM Murcia II",
+          "logo": "https://media.api-sports.io/football/teams/9822.png",
+          "founded": null
+      },
+      {
+          "teamId": 9823,
+          "name": "Águilas",
+          "logo": "https://media.api-sports.io/football/teams/9823.png",
+          "founded": null
+      },
+      {
+          "teamId": 9824,
+          "name": "Aceuchal",
+          "logo": "https://media.api-sports.io/football/teams/9824.png",
+          "founded": null
+      },
+      {
+          "teamId": 9825,
+          "name": "Arroyo",
+          "logo": "https://media.api-sports.io/football/teams/9825.png",
+          "founded": 1968
+      },
+      {
+          "teamId": 9826,
+          "name": "Azuaga",
+          "logo": "https://media.api-sports.io/football/teams/9826.png",
+          "founded": null
+      },
+      {
+          "teamId": 9827,
+          "name": "CD Coria",
+          "logo": "https://media.api-sports.io/football/teams/9827.png",
+          "founded": 1965
+      },
+      {
+          "teamId": 9828,
+          "name": "Calamonte",
+          "logo": "https://media.api-sports.io/football/teams/9828.png",
+          "founded": 1965
+      },
+      {
+          "teamId": 9829,
+          "name": "Diocesano",
+          "logo": "https://media.api-sports.io/football/teams/9829.png",
+          "founded": null
+      },
+      {
+          "teamId": 9830,
+          "name": "Extremadura UD II",
+          "logo": "https://media.api-sports.io/football/teams/9830.png",
+          "founded": null
+      },
+      {
+          "teamId": 9831,
+          "name": "Fuente Cantos",
+          "logo": "https://media.api-sports.io/football/teams/9831.png",
+          "founded": 1975
+      },
+      {
+          "teamId": 9832,
+          "name": "Jerez",
+          "logo": "https://media.api-sports.io/football/teams/9832.png",
+          "founded": 1969
+      },
+      {
+          "teamId": 9833,
+          "name": "Llerenense",
+          "logo": "https://media.api-sports.io/football/teams/9833.png",
+          "founded": null
+      },
+      {
+          "teamId": 9834,
+          "name": "Miajadas",
+          "logo": "https://media.api-sports.io/football/teams/9834.png",
+          "founded": 1944
+      },
+      {
+          "teamId": 9835,
+          "name": "Montijo",
+          "logo": "https://media.api-sports.io/football/teams/9835.png",
+          "founded": null
+      },
+      {
+          "teamId": 9836,
+          "name": "Moralo",
+          "logo": "https://media.api-sports.io/football/teams/9836.png",
+          "founded": 1965
+      },
+      {
+          "teamId": 9837,
+          "name": "Olivenza",
+          "logo": "https://media.api-sports.io/football/teams/9837.png",
+          "founded": 2013
+      },
+      {
+          "teamId": 9838,
+          "name": "Plasencia",
+          "logo": "https://media.api-sports.io/football/teams/9838.png",
+          "founded": 1974
+      },
+      {
+          "teamId": 9839,
+          "name": "RCP Valverdeño",
+          "logo": "https://media.api-sports.io/football/teams/9839.png",
+          "founded": 1975
+      },
+      {
+          "teamId": 9840,
+          "name": "Trujillo",
+          "logo": "https://media.api-sports.io/football/teams/9840.png",
+          "founded": null
+      },
+      {
+          "teamId": 9841,
+          "name": "Valdivia",
+          "logo": "https://media.api-sports.io/football/teams/9841.png",
+          "founded": null
+      },
+      {
+          "teamId": 9842,
+          "name": "Ardoi",
+          "logo": "https://media.api-sports.io/football/teams/9842.png",
+          "founded": null
+      },
+      {
+          "teamId": 9843,
+          "name": "Baztán",
+          "logo": "https://media.api-sports.io/football/teams/9843.png",
+          "founded": 1925
+      },
+      {
+          "teamId": 9844,
+          "name": "Beti Kozkor",
+          "logo": "https://media.api-sports.io/football/teams/9844.png",
+          "founded": null
+      },
+      {
+          "teamId": 9845,
+          "name": "Beti Onak",
+          "logo": "https://media.api-sports.io/football/teams/9845.png",
+          "founded": null
+      },
+      {
+          "teamId": 9846,
+          "name": "Burladés",
+          "logo": "https://media.api-sports.io/football/teams/9846.png",
+          "founded": null
+      },
+      {
+          "teamId": 9847,
+          "name": "Cirbonero",
+          "logo": "https://media.api-sports.io/football/teams/9847.png",
+          "founded": 1943
+      },
+      {
+          "teamId": 9848,
+          "name": "Corellano",
+          "logo": "https://media.api-sports.io/football/teams/9848.png",
+          "founded": 1929
+      },
+      {
+          "teamId": 9849,
+          "name": "Cortes",
+          "logo": "https://media.api-sports.io/football/teams/9849.png",
+          "founded": null
+      },
+      {
+          "teamId": 9850,
+          "name": "Fontellas",
+          "logo": "https://media.api-sports.io/football/teams/9850.png",
+          "founded": null
+      },
+      {
+          "teamId": 9851,
+          "name": "Huarte",
+          "logo": "https://media.api-sports.io/football/teams/9851.png",
+          "founded": 1975
+      },
+      {
+          "teamId": 9852,
+          "name": "Lourdes",
+          "logo": "https://media.api-sports.io/football/teams/9852.png",
+          "founded": null
+      },
+      {
+          "teamId": 9853,
+          "name": "Murchante",
+          "logo": "https://media.api-sports.io/football/teams/9853.png",
+          "founded": null
+      },
+      {
+          "teamId": 9854,
+          "name": "Pamplona",
+          "logo": "https://media.api-sports.io/football/teams/9854.png",
+          "founded": null
+      },
+      {
+          "teamId": 9855,
+          "name": "San Juan",
+          "logo": "https://media.api-sports.io/football/teams/9855.png",
+          "founded": 1962
+      },
+      {
+          "teamId": 9856,
+          "name": "Subiza",
+          "logo": "https://media.api-sports.io/football/teams/9856.png",
+          "founded": 1984
+      },
+      {
+          "teamId": 9857,
+          "name": "Txantrea",
+          "logo": "https://media.api-sports.io/football/teams/9857.png",
+          "founded": 1952
+      },
+      {
+          "teamId": 9858,
+          "name": "Valle Egüés",
+          "logo": "https://media.api-sports.io/football/teams/9858.png",
+          "founded": 1968
+      },
+      {
+          "teamId": 9859,
+          "name": "Alberite",
+          "logo": "https://media.api-sports.io/football/teams/9859.png",
+          "founded": null
+      },
+      {
+          "teamId": 9860,
+          "name": "Alfaro",
+          "logo": "https://media.api-sports.io/football/teams/9860.png",
+          "founded": 1922
+      },
+      {
+          "teamId": 9861,
+          "name": "Anguiano",
+          "logo": "https://media.api-sports.io/football/teams/9861.png",
+          "founded": 1999
+      },
+      {
+          "teamId": 9862,
+          "name": "Arnedo",
+          "logo": "https://media.api-sports.io/football/teams/9862.png",
+          "founded": 1957
+      },
+      {
+          "teamId": 9863,
+          "name": "Berceo",
+          "logo": "https://media.api-sports.io/football/teams/9863.png",
+          "founded": 1948
+      },
+      {
+          "teamId": 9864,
+          "name": "Calahorra II",
+          "logo": "https://media.api-sports.io/football/teams/9864.png",
+          "founded": null
+      },
+      {
+          "teamId": 9865,
+          "name": "Calasancio",
+          "logo": "https://media.api-sports.io/football/teams/9865.png",
+          "founded": 1977
+      },
+      {
+          "teamId": 9866,
+          "name": "Casalarreina",
+          "logo": "https://media.api-sports.io/football/teams/9866.png",
+          "founded": null
+      },
+      {
+          "teamId": 9867,
+          "name": "La Calzada",
+          "logo": "https://media.api-sports.io/football/teams/9867.png",
+          "founded": 1949
+      },
+      {
+          "teamId": 9868,
+          "name": "Náxara",
+          "logo": "https://media.api-sports.io/football/teams/9868.png",
+          "founded": 1966
+      },
+      {
+          "teamId": 9869,
+          "name": "Oyonesa",
+          "logo": "https://media.api-sports.io/football/teams/9869.png",
+          "founded": null
+      },
+      {
+          "teamId": 9870,
+          "name": "Pradejón",
+          "logo": "https://media.api-sports.io/football/teams/9870.png",
+          "founded": null
+      },
+      {
+          "teamId": 9871,
+          "name": "River Ebro",
+          "logo": "https://media.api-sports.io/football/teams/9871.png",
+          "founded": 1952
+      },
+      {
+          "teamId": 9872,
+          "name": "UD Logroñés II",
+          "logo": "https://media.api-sports.io/football/teams/9872.png",
+          "founded": 2009
+      },
+      {
+          "teamId": 9873,
+          "name": "Varea",
+          "logo": "https://media.api-sports.io/football/teams/9873.png",
+          "founded": 2009
+      },
+      {
+          "teamId": 9874,
+          "name": "Vianés",
+          "logo": "https://media.api-sports.io/football/teams/9874.png",
+          "founded": null
+      },
+      {
+          "teamId": 9875,
+          "name": "Villegas",
+          "logo": "https://media.api-sports.io/football/teams/9875.png",
+          "founded": null
+      },
+      {
+          "teamId": 9876,
+          "name": "Yagüe",
+          "logo": "https://media.api-sports.io/football/teams/9876.png",
+          "founded": null
+      },
+      {
+          "teamId": 9877,
+          "name": "Almudévar",
+          "logo": "https://media.api-sports.io/football/teams/9877.png",
+          "founded": 1965
+      },
+      {
+          "teamId": 9878,
+          "name": "Atlético Monzón",
+          "logo": "https://media.api-sports.io/football/teams/9878.png",
+          "founded": 1950
+      },
+      {
+          "teamId": 9879,
+          "name": "Barbastro",
+          "logo": "https://media.api-sports.io/football/teams/9879.png",
+          "founded": 1934
+      },
+      {
+          "teamId": 9880,
+          "name": "Belchite 97",
+          "logo": "https://media.api-sports.io/football/teams/9880.png",
+          "founded": 1997
+      },
+      {
+          "teamId": 9881,
+          "name": "Binéfar",
+          "logo": "https://media.api-sports.io/football/teams/9881.png",
+          "founded": 1922
+      },
+      {
+          "teamId": 9882,
+          "name": "Borja",
+          "logo": "https://media.api-sports.io/football/teams/9882.png",
+          "founded": 1969
+      },
+      {
+          "teamId": 9883,
+          "name": "Brea",
+          "logo": "https://media.api-sports.io/football/teams/9883.png",
+          "founded": 1971
+      },
+      {
+          "teamId": 9884,
+          "name": "CDJ Tamarite",
+          "logo": "https://media.api-sports.io/football/teams/9884.png",
+          "founded": 1922
+      },
+      {
+          "teamId": 9885,
+          "name": "Calamocha",
+          "logo": "https://media.api-sports.io/football/teams/9885.png",
+          "founded": 1940
+      },
+      {
+          "teamId": 9886,
+          "name": "Cuarte",
+          "logo": "https://media.api-sports.io/football/teams/9886.png",
+          "founded": null
+      },
+      {
+          "teamId": 9887,
+          "name": "Real Zaragoza II",
+          "logo": "https://media.api-sports.io/football/teams/9887.png",
+          "founded": 1958
+      },
+      {
+          "teamId": 9888,
+          "name": "Robres",
+          "logo": "https://media.api-sports.io/football/teams/9888.png",
+          "founded": null
+      },
+      {
+          "teamId": 9889,
+          "name": "San Juan Mozarrifar",
+          "logo": "https://media.api-sports.io/football/teams/9889.png",
+          "founded": null
+      },
+      {
+          "teamId": 9890,
+          "name": "Sariñena",
+          "logo": "https://media.api-sports.io/football/teams/9890.png",
+          "founded": 1945
+      },
+      {
+          "teamId": 9891,
+          "name": "Utebo",
+          "logo": "https://media.api-sports.io/football/teams/9891.png",
+          "founded": null
+      },
+      {
+          "teamId": 9892,
+          "name": "Valdefierro",
+          "logo": "https://media.api-sports.io/football/teams/9892.png",
+          "founded": null
+      },
+      {
+          "teamId": 9893,
+          "name": "Villanueva CF",
+          "logo": "https://media.api-sports.io/football/teams/9893.png",
+          "founded": 1974
+      },
+      {
+          "teamId": 9894,
+          "name": "Almagro",
+          "logo": "https://media.api-sports.io/football/teams/9894.png",
+          "founded": null
+      },
+      {
+          "teamId": 9895,
+          "name": "Albacete II",
+          "logo": "https://media.api-sports.io/football/teams/9895.png",
+          "founded": null
+      },
+      {
+          "teamId": 9896,
+          "name": "Almansa",
+          "logo": "https://media.api-sports.io/football/teams/9896.png",
+          "founded": null
+      },
+      {
+          "teamId": 9897,
+          "name": "Atlético Ibañés",
+          "logo": "https://media.api-sports.io/football/teams/9897.png",
+          "founded": null
+      },
+      {
+          "teamId": 9898,
+          "name": "Azuqueca",
+          "logo": "https://media.api-sports.io/football/teams/9898.png",
+          "founded": null
+      },
+      {
+          "teamId": 9899,
+          "name": "Calvo Sotelo",
+          "logo": "https://media.api-sports.io/football/teams/9899.png",
+          "founded": 2015
+      },
+      {
+          "teamId": 9900,
+          "name": "Guadalajara",
+          "logo": "https://media.api-sports.io/football/teams/9900.png",
+          "founded": 1947
+      },
+      {
+          "teamId": 9901,
+          "name": "Illescas",
+          "logo": "https://media.api-sports.io/football/teams/9901.png",
+          "founded": null
+      },
+      {
+          "teamId": 9902,
+          "name": "La Roda",
+          "logo": "https://media.api-sports.io/football/teams/9902.png",
+          "founded": 1999
+      },
+      {
+          "teamId": 9903,
+          "name": "La Solana",
+          "logo": "https://media.api-sports.io/football/teams/9903.png",
+          "founded": null
+      },
+      {
+          "teamId": 9904,
+          "name": "Madridejos",
+          "logo": "https://media.api-sports.io/football/teams/9904.png",
+          "founded": null
+      },
+      {
+          "teamId": 9905,
+          "name": "Manchego",
+          "logo": "https://media.api-sports.io/football/teams/9905.png",
+          "founded": 2009
+      },
+      {
+          "teamId": 9906,
+          "name": "Quintanar del Rey",
+          "logo": "https://media.api-sports.io/football/teams/9906.png",
+          "founded": null
+      },
+      {
+          "teamId": 9907,
+          "name": "Tarancón",
+          "logo": "https://media.api-sports.io/football/teams/9907.png",
+          "founded": 1995
+      },
+      {
+          "teamId": 9908,
+          "name": "Toledo",
+          "logo": "https://media.api-sports.io/football/teams/9908.png",
+          "founded": 1928
+      },
+      {
+          "teamId": 9909,
+          "name": "Torrijos",
+          "logo": "https://media.api-sports.io/football/teams/9909.png",
+          "founded": null
+      },
+      {
+          "teamId": 9910,
+          "name": "Villacañas",
+          "logo": "https://media.api-sports.io/football/teams/9910.png",
+          "founded": null
+      },
+      {
+          "teamId": 9990,
+          "name": "Cartagena II",
+          "logo": "https://media.api-sports.io/football/teams/9990.png",
+          "founded": null
+      },
+      {
+          "teamId": 10139,
+          "name": "AD Ceuta FC",
+          "logo": "https://media.api-sports.io/football/teams/10139.png",
+          "founded": 1956
+      },
+      {
+          "teamId": 10140,
+          "name": "Mérida AD",
+          "logo": "https://media.api-sports.io/football/teams/10140.png",
+          "founded": 2013
+      },
+      {
+          "teamId": 10143,
+          "name": "Internacional",
+          "logo": "https://media.api-sports.io/football/teams/10143.png",
+          "founded": null
+      },
+      {
+          "teamId": 10182,
+          "name": "Spain U23",
+          "logo": "https://media.api-sports.io/football/teams/10182.png",
+          "founded": null
+      },
+      {
+          "teamId": 10349,
+          "name": "Spain U19",
+          "logo": "https://media.api-sports.io/football/teams/10349.png",
+          "founded": null
+      },
+      {
+          "teamId": 15224,
+          "name": "Real Madrid W",
+          "logo": "https://media.api-sports.io/football/teams/15224.png",
+          "founded": null
+      },
+      {
+          "teamId": 15225,
+          "name": "Eibar W",
+          "logo": "https://media.api-sports.io/football/teams/15225.png",
+          "founded": null
+      },
+      {
+          "teamId": 15306,
+          "name": "Ribadumia",
+          "logo": "https://media.api-sports.io/football/teams/15306.png",
+          "founded": null
+      },
+      {
+          "teamId": 15339,
+          "name": "Cayón",
+          "logo": "https://media.api-sports.io/football/teams/15339.png",
+          "founded": null
+      }
+  ]
+}
