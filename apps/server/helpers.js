@@ -1,4 +1,4 @@
-const { RESULTS_PER_PAGE } = require("../consts")
+const { RESULTS_PER_PAGE } = require("./consts")
 
 const calculateStartIndex = (page) => (page - 1) * RESULTS_PER_PAGE
 
