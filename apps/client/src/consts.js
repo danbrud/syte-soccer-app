@@ -13,6 +13,11 @@ export const SNACKBAR_INFO = {
   }
 }
 
+export const PAGE_DIRECTION = {
+  next: 'next',
+  previous: 'previous'
+}
+
 export const MEDIA_QUERIES = {
   desktop: '(min-width:768px)',
   mobile: '(max-width:600px)'
