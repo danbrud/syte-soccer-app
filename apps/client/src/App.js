@@ -11,7 +11,9 @@ const App = () => {
   return (
     <div className='App'>
       <Header />
-      <Teams />
+      <Teams
+        openSnackbar={(type => setSnackbar({ ...type, open: true }))}
+      />
       <SnackbarAlert
         open={snackbar.open}
         severity={snackbar.severity}

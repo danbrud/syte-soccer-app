@@ -4,7 +4,7 @@ import Team from './Team'
 import { SNACKBAR_INFO } from '../consts'
 
 
-const Teams = ({ setSnackbar }) => {
+const Teams = ({ openSnackbar }) => {
   const [teams, setTeams] = useState([])
 
   useEffect(() => {
@@ -23,22 +23,22 @@ const Teams = ({ setSnackbar }) => {
       const updatedTeams = teams.map(team => team.teamId === teamId ? { ...team, isSaved: true } : team)
       setTeams(updatedTeams)
 
-      setSnackbar({ ...SNACKBAR_INFO.savedToFavorites, open: true })
+      openSnackbar(SNACKBAR_INFO.savedToFavorites)
     } catch (err) {
-      setSnackbar({ ...SNACKBAR_INFO.error, open: true })
+      openSnackbar(SNACKBAR_INFO.error)
     }
   }
 
   const removeTeamFromFavorites = async (teamId) => {
     try {
       await apiClient.deleteTeam(teamId)
-
+      
       const updatedTeams = teams.map(team => team.teamId === teamId ? { ...team, isSaved: false } : team)
       setTeams(updatedTeams)
 
-      setSnackbar({ ...SNACKBAR_INFO.removedFromFavorites, open: true })
+      openSnackbar(SNACKBAR_INFO.removedFromFavorites)
     } catch (err) {
-      setSnackbar({ ...SNACKBAR_INFO.error, open: true })
+      openSnackbar(SNACKBAR_INFO.error)
     }
   }
 
