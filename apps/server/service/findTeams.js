@@ -1,4 +1,4 @@
-const { RESULTS_PER_PAGE } = require("../consts")
+const { calculateStartIndex, calculateEndIndex } = require("../helpers")
 const Team = require("../models/Team")
 const apiClient = require('./soccerAPI')
 
@@ -22,8 +22,8 @@ const findTeams = async (req, res) => {
         return teamInDB ? { ...team, isSaved: true } : team
       })
 
-
-    teams = teams.slice(page - 1, RESULTS_PER_PAGE)
+    
+    teams = teams.slice(calculateStartIndex(page), calculateEndIndex(page))
 
     res
       .status(200)
