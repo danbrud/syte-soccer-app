@@ -3,37 +3,43 @@
         "teamId": 9,
         "name": "Spain",
         "logo": "https://media.api-sports.io/football/teams/9.png",
-        "founded": 1913
+        "founded": 1913,
+        "isSaved": true
     },
     {
         "teamId": 529,
         "name": "Barcelona",
         "logo": "https://media.api-sports.io/football/teams/529.png",
-        "founded": 1899
+        "founded": 1899,
+        "isSaved": true
     },
     {
         "teamId": 530,
         "name": "Atletico Madrid",
         "logo": "https://media.api-sports.io/football/teams/530.png",
-        "founded": 1903
+        "founded": 1903,
+        "isSaved": true
     },
     {
         "teamId": 531,
         "name": "Athletic Club",
         "logo": "https://media.api-sports.io/football/teams/531.png",
-        "founded": 1898
+        "founded": 1898,
+        "isSaved": true
     },
     {
         "teamId": 532,
         "name": "Valencia",
         "logo": "https://media.api-sports.io/football/teams/532.png",
-        "founded": 1919
+        "founded": 1919,
+        "isSaved": true
     },
     {
         "teamId": 533,
         "name": "Villarreal",
         "logo": "https://media.api-sports.io/football/teams/533.png",
-        "founded": 1923
+        "founded": 1923,
+        "isSaved": true
     },
     {
         "teamId": 534,
@@ -51,7 +57,8 @@
         "teamId": 536,
         "name": "Sevilla",
         "logo": "https://media.api-sports.io/football/teams/536.png",
-        "founded": 1890
+        "founded": 1890,
+        "isSaved": true
     },
     {
         "teamId": 537,
@@ -69,7 +76,8 @@
         "teamId": 539,
         "name": "Levante",
         "logo": "https://media.api-sports.io/football/teams/539.png",
-        "founded": 1909
+        "founded": 1909,
+        "isSaved": true
     },
     {
         "teamId": 540,
@@ -3129,7 +3137,8 @@
         "teamId": 9902,
         "name": "La Roda",
         "logo": "https://media.api-sports.io/football/teams/9902.png",
-        "founded": 1999
+        "founded": 1999,
+        "isSaved": true
     },
     {
         "teamId": 9903,
@@ -3141,7 +3150,8 @@
         "teamId": 9904,
         "name": "Madridejos",
         "logo": "https://media.api-sports.io/football/teams/9904.png",
-        "founded": null
+        "founded": null,
+        "isSaved": true
     },
     {
         "teamId": 9905,
@@ -3153,7 +3163,8 @@
         "teamId": 9906,
         "name": "Quintanar del Rey",
         "logo": "https://media.api-sports.io/football/teams/9906.png",
-        "founded": null
+        "founded": null,
+        "isSaved": true
     },
     {
         "teamId": 9907,
@@ -3171,7 +3182,8 @@
         "teamId": 9909,
         "name": "Torrijos",
         "logo": "https://media.api-sports.io/football/teams/9909.png",
-        "founded": null
+        "founded": null,
+        "isSaved": true
     },
     {
         "teamId": 9910,
@@ -3207,7 +3219,8 @@
         "teamId": 10182,
         "name": "Spain U23",
         "logo": "https://media.api-sports.io/football/teams/10182.png",
-        "founded": null
+        "founded": null,
+        "isSaved": true
     },
     {
         "teamId": 10349,

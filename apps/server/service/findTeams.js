@@ -1,18 +1,29 @@
+const { RESULTS_PER_PAGE } = require("../consts")
 const Team = require("../models/Team")
 const apiClient = require('./soccerAPI')
 
 
 const findTeams = async (req, res) => {
   try {
-    // const response = await apiClient.fetchTeams()
+    const { page } = req.query
 
-    // const teams = response.data.response
-    //   .map(teamInfo => {
-    //     const { id: teamId, name, logo, founded } = teamInfo.team
-    //     return { teamId, name, logo, founded }
-    //   })
+    const [requestedTeams, savedTeams] = await Promise.all([
+      apiClient.fetchTeams(),
+      Team.find({}).select({ teamId: 1, '_id': 0 })
+    ])
 
-    const teams = require('../dummyData.json')
+    let teams = requestedTeams.data.response
+      .map(teamInfo => {
+        const { id: teamId, name, logo, founded } = teamInfo.team
+        return { teamId, name, logo, founded }
+      })
+      .map(team => {
+        const teamInDB = savedTeams.some(teamIDs => team.teamId === teamIDs.toObject().teamId)
+        return teamInDB ? { ...team, isSaved: true } : team
+      })
+
+
+    teams = teams.slice(page - 1, RESULTS_PER_PAGE)
 
     res
       .status(200)
