@@ -1,0 +1,25 @@
+const ENVIRONMENT = {
+  development: 'development'
+}
+
+const {
+  PORT,
+  CLIENT_BUILD_PATH,
+  MONGODB_URI,
+  NODE_ENV,
+  SOCCER_API_KEY,
+  SOCCER_API_HOST,
+  SOCCER_API_URI
+} = process.env
+
+
+module.exports = {
+  PORT,
+  CLIENT_BUILD_PATH,
+  MONGODB_URI,
+  NODE_ENV,
+  SOCCER_API_KEY,
+  SOCCER_API_HOST,
+  SOCCER_API_URI,
+  ENVIRONMENT
+}
