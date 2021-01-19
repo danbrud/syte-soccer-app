@@ -6,6 +6,7 @@ import Teams from './components/Teams'
 const App = () => {
   return (
     <div className="App">
+      
       <Teams />
     </div>
   )

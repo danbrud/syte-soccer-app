@@ -45,10 +45,10 @@ const Team = ({ team, saveTeamToFavorites, removeTeamFromFavorites }) => {
       <CardActions>
         {
           isSaved
-            ? <IconButton onClick={() => saveTeamToFavorites(teamId)}>
+            ? <IconButton onClick={() => removeTeamFromFavorites(teamId)}>
               <FavoriteIcon />
             </IconButton>
-            : <IconButton onClick={() => removeTeamFromFavorites(teamId)}>
+            : <IconButton onClick={() => saveTeamToFavorites(teamId)}>
               <FavoriteBorderIcon />
             </IconButton>
         }
