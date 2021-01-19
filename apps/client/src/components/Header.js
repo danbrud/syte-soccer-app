@@ -7,7 +7,7 @@ const Header = () => {
 
   return (
     <header>
-      <Typography variant='h3' color='primary' align='center'>
+      <Typography variant='h3' color='secondary' align='center'>
         SOCCER TEAMS
       </Typography>
     </header>

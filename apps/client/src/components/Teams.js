@@ -4,6 +4,7 @@ import Team from './Team'
 import { MEDIA_QUERIES, SNACKBAR_INFO } from '../consts'
 import useMediaQuery from '@material-ui/core/useMediaQuery'
 import { makeStyles } from '@material-ui/core/styles'
+import Loader from './Loader'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -33,11 +34,13 @@ const Teams = ({ openSnackbar }) => {
   const isMobile = useMediaQuery(MEDIA_QUERIES.mobile)
 
   const [teams, setTeams] = useState([])
+  const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() => {
     const fetchTeams = async () => {
       const response = await apiClient.fetchTeams()
       setTeams(response.data.teams)
+      setIsLoading(false)
     }
 
     fetchTeams()
@@ -70,15 +73,18 @@ const Teams = ({ openSnackbar }) => {
   }
 
   return (
-    <div className={isDesktop ? classes.rootDesktop : isMobile ? classes.rootMobile : classes.rootLargeMobile}>
-    {/* // <div className={isDesktop ? classes.rootDesktop : classes.rootMobile}> */}
-      {teams.map(team => <Team
-        key={team.teamId}
-        team={team}
-        saveTeamToFavorites={saveTeamToFavorites}
-        removeTeamFromFavorites={removeTeamFromFavorites}
-      />)}
-    </div>
+    <>
+      {isLoading && <Loader />}
+      <div className={isDesktop ? classes.rootDesktop : isMobile ? classes.rootMobile : classes.rootLargeMobile}>
+
+        {teams.map(team => <Team
+          key={team.teamId}
+          team={team}
+          saveTeamToFavorites={saveTeamToFavorites}
+          removeTeamFromFavorites={removeTeamFromFavorites}
+        />)}
+      </div>
+    </>
   )
 }
 
