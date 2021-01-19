@@ -4,7 +4,7 @@ const express = require('express')
 const mongoose = require('mongoose')
 const api = require('./routes')
 
-// const { PORT, CLIENT_BUILD_PATH, MONGODB_URI } = require('./consts')
+const { PORT, CLIENT_BUILD_PATH, MONGODB_URI } = process.env
 
 const app = express()
 
