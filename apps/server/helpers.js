@@ -8,4 +8,4 @@ const getCurrentPageResults = (page, teams) => teams.slice(calculateStartIndex(p
 
 const extractTeamIds = (teamDocuments) => teamDocuments.map(teamDoc => teamDoc.teamId)
 
-module.exports = { calculateStartIndex, calculateEndIndex, extractTeamIds, getCurrentPageResults }
+module.exports = { extractTeamIds, getCurrentPageResults }
