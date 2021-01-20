@@ -9,7 +9,6 @@ const findTeams = async (req, res) => {
 
     const [requestedTeams, savedTeams] = await Promise.all([
       apiClient.fetchTeams(),
-      // new Promise((resolve, reject) => resolve(1)),
       Team.find({}).select({ teamId: 1, '_id': 0 })
     ])
 
