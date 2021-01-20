@@ -10,7 +10,8 @@ const useStyles = makeStyles((theme) => ({
   rootDesktop: {
     display: 'grid',
     gridTemplateColumns: 'repeat(3, 1fr)',
-    justifySelf: 'center'
+    justifySelf: 'center',
+    justifyItems: 'center'
   },
   rootMobile: {
     margin: '16px'
@@ -18,7 +19,8 @@ const useStyles = makeStyles((theme) => ({
   rootLargeMobile: {
     display: 'grid',
     gridTemplateColumns: 'repeat(2, 1fr)',
-    justifySelf: 'center'
+    justifySelf: 'center',
+    justifyItems: 'center'
   },
   media: {
     height: 0,
