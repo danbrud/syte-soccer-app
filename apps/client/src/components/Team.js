@@ -59,7 +59,7 @@ const Team = ({ team, updateFavorites }) => {
             ? (
               <IconButton
                 className={classes.icon}
-                onClick={() => updateFavorites(UPDATE_ACTIONS.saveToFavorites, teamId)}
+                onClick={() => updateFavorites(UPDATE_ACTIONS.removedFromFavorites, teamId)}
               >
                 <FavoriteIcon />
               </IconButton>
@@ -67,7 +67,7 @@ const Team = ({ team, updateFavorites }) => {
             : (
               <IconButton
                 className={classes.icon}
-                onClick={() => updateFavorites(UPDATE_ACTIONS.removedFromFavorites, teamId)}
+                onClick={() => updateFavorites(UPDATE_ACTIONS.saveToFavorites, teamId)}
               >
                 <FavoriteBorderIcon />
               </IconButton>

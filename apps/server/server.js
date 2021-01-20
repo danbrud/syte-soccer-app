@@ -2,7 +2,6 @@ require('dotenv').config()
 const path = require('path')
 const express = require('express')
 const mongoose = require('mongoose')
-const cors = require('cors')
 const api = require('./routes')
 
 const { PORT, CLIENT_BUILD_PATH, MONGODB_URI, NODE_ENV, ENVIRONMENT } = require('./consts')
@@ -10,10 +9,11 @@ const { PORT, CLIENT_BUILD_PATH, MONGODB_URI, NODE_ENV, ENVIRONMENT } = require(
 const app = express()
 
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
-  .then(() => console.log('Connected to DB'))
-  .catch((err) => console.log('Error', err))
+.then(() => console.log('Connected to DB'))
+.catch((err) => console.log('Error', err))
 
 if (NODE_ENV === ENVIRONMENT.development) {
+  const cors = require('cors')
   app.use(cors())
 }
 
