@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import Teams from './components/Teams'
 import Header from './components/Header'
 import SnackbarAlert from './components/SnackbarAlert'
+import TeamsContainer from './components/TeamsContainer'
 
 
 const App = () => {
@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className='App'>
       <Header />
-      <Teams
+      <TeamsContainer
         openSnackbar={(type => setSnackbar({ ...type, open: true }))}
       />
       <SnackbarAlert

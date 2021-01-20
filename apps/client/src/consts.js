@@ -22,3 +22,8 @@ export const MEDIA_QUERIES = {
   desktop: '(min-width:768px)',
   mobile: '(max-width:600px)'
 }
+
+export const UPDATE_ACTIONS = {
+  saveToFavorites: 'save',
+  removedFromFavorites: 'remove'
+}
