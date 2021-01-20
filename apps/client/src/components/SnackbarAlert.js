@@ -3,10 +3,6 @@ import Snackbar from '@material-ui/core/Snackbar'
 import MuiAlert from '@material-ui/lab/Alert'
 import { makeStyles } from '@material-ui/core/styles'
 
-const Alert = (props) => {
-  return <MuiAlert elevation={6} variant="filled" {...props} />
-}
-
 const useStyles = makeStyles((theme) => ({
   root: {
     width: '100%',
@@ -16,13 +12,16 @@ const useStyles = makeStyles((theme) => ({
   }
 }))
 
+const Alert = (props) => {
+  return <MuiAlert elevation={6} variant="filled" {...props} />
+}
+
+
 const SnackbarAlert = ({ open, severity, message, hideSnackbar }) => {
   const classes = useStyles()
 
   const handleClose = (event, reason) => {
-    if (reason === 'clickaway') {
-      return
-    }
+    if (reason === 'clickaway') { return }
 
     hideSnackbar()
   }
