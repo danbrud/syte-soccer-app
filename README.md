@@ -14,6 +14,7 @@ For a working version of the app, check out --> [https://syte-soccer-app.herokua
 
 
 ## Run Locally
+- Clone the repo
 - Run `npm install` from the root directory
 - Create a `.env` file in the `/apps/server`directory
 - Paste in the environment variables (attached separately)
