@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { apiClient } from '../api/apiClient'
 import Team from './Team'
-import { MEDIA_QUERIES, PAGE_DIRECTION, SNACKBAR_INFO } from '../consts'
+import { MEDIA_QUERIES, PAGE_DIRECTION, SNACKBAR_INFO, UPDATE_ACTIONS } from '../consts'
 import useMediaQuery from '@material-ui/core/useMediaQuery'
 import { makeStyles } from '@material-ui/core/styles'
 import Loader from './Loader'
@@ -54,26 +54,28 @@ const Teams = ({ openSnackbar }) => {
   }, [page])
 
   const saveTeamToFavorites = async (teamId) => {
-    try {
       await apiClient.saveTeam(teamId)
-
       const updatedTeams = teams.map(team => team.teamId === teamId ? { ...team, isSaved: true } : team)
-      setTeams(updatedTeams)
 
+      setTeams(updatedTeams)
       openSnackbar(SNACKBAR_INFO.savedToFavorites)
-    } catch (err) {
-      openSnackbar(SNACKBAR_INFO.error)
-    }
   }
 
   const removeTeamFromFavorites = async (teamId) => {
+    await apiClient.deleteTeam(teamId)
+    const updatedTeams = teams.map(team => team.teamId === teamId ? { ...team, isSaved: false } : team)
+
+    setTeams(updatedTeams)
+    openSnackbar(SNACKBAR_INFO.removedFromFavorites)
+  }
+
+  const updateFavorites = (type, teamId) => {
     try {
-      await apiClient.deleteTeam(teamId)
-
-      const updatedTeams = teams.map(team => team.teamId === teamId ? { ...team, isSaved: false } : team)
-      setTeams(updatedTeams)
-
-      openSnackbar(SNACKBAR_INFO.removedFromFavorites)
+      if (type === UPDATE_ACTIONS.saveToFavorites) {
+        saveTeamToFavorites(teamId)
+      } else {
+        removeTeamFromFavorites(teamId)
+      }
     } catch (err) {
       openSnackbar(SNACKBAR_INFO.error)
     }
@@ -90,12 +92,12 @@ const Teams = ({ openSnackbar }) => {
         isLoading
           ? < Loader />
           : <div className={isDesktop ? classes.rootDesktop : isMobile ? classes.rootMobile : classes.rootLargeMobile}>
-            {teams.map(team => <Team
-              key={team.teamId}
-              team={team}
-              saveTeamToFavorites={saveTeamToFavorites}
-              removeTeamFromFavorites={removeTeamFromFavorites}
-            />)}
+            {teams.map(team => (
+              <Team
+                key={team.teamId}
+                team={team}
+                updateFavorites={updateFavorites}
+              />))}
           </div>
       }
       <PageNavigation
