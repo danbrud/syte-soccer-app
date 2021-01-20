@@ -1,4 +1,4 @@
-const { calculateStartIndex, calculateEndIndex } = require("../helpers")
+const { extractTeamIds, getCurrentPageResults } = require("../helpers")
 const Team = require("../models/Team")
 const apiClient = require('./soccerAPI')
 
@@ -9,8 +9,11 @@ const findTeams = async (req, res) => {
 
     const [requestedTeams, savedTeams] = await Promise.all([
       apiClient.fetchTeams(),
+      // new Promise((resolve, reject) => resolve(1)),
       Team.find({}).select({ teamId: 1, '_id': 0 })
     ])
+
+    const teamIdsInDB = extractTeamIds(savedTeams)
 
     let teams = requestedTeams.data.response
       .map(teamInfo => {
@@ -18,12 +21,12 @@ const findTeams = async (req, res) => {
         return { teamId, name, logo, founded }
       })
       .map(team => {
-        const teamInDB = savedTeams.some(teamIDs => team.teamId === teamIDs.toObject().teamId)
-        return teamInDB ? { ...team, isSaved: true } : team
+        const teamIndex = teamIdsInDB.indexOf(team.teamId)
+        return teamIndex > -1 ? { ...team, isSaved: true } : team
       })
 
-    
-    teams = teams.slice(calculateStartIndex(page), calculateEndIndex(page))
+
+    teams = getCurrentPageResults(page, teams)
 
     res
       .status(200)
